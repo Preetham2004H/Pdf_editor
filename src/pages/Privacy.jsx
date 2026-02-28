@@ -6,7 +6,7 @@ export default function Privacy() {
         <>
             <SEOHead
                 title="Privacy Policy"
-                description="PDFMaster Pro Privacy Policy. Learn how we handle your data and protect your privacy."
+                description="PDFHelper Privacy Policy. Learn how we handle your data and protect your privacy."
                 path="/privacy"
             />
             <section className="section-padding">
@@ -18,7 +18,7 @@ export default function Privacy() {
                         <div className="glass-card p-8 space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">1. Information We Collect</h2>
-                                <p>PDFMaster Pro is designed with privacy in mind. We process your PDF files directly in your browser whenever possible. We do not permanently store any files you upload. When server-side processing is required, files are automatically deleted within 30 minutes of processing.</p>
+                                <p>PDFHelper is designed with privacy in mind. We process your PDF files directly in your browser whenever possible. We do not permanently store any files you upload. When server-side processing is required, files are automatically deleted within 30 minutes of processing.</p>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">2. How We Use Your Information</h2>

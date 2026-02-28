@@ -11,7 +11,7 @@ export default function Footer() {
                             <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /></svg>
                             </div>
-                            <span className="font-bold text-lg text-white">PDFMaster Pro</span>
+                            <span className="font-bold text-lg text-white">PDFHelper</span>
                         </div>
                         <p className="text-sm text-gray-400 leading-relaxed">Free online PDF tools to merge, split, compress, convert, and edit your PDF files. Fast, secure, and easy to use.</p>
                     </div>
@@ -47,6 +47,7 @@ export default function Footer() {
                             <li><Link to="/blog" className="text-gray-400 hover:text-secondary transition-colors no-underline">Blog</Link></li>
                             <li><Link to="/privacy" className="text-gray-400 hover:text-secondary transition-colors no-underline">Privacy Policy</Link></li>
                             <li><Link to="/terms" className="text-gray-400 hover:text-secondary transition-colors no-underline">Terms & Conditions</Link></li>
+                            <li><Link to="/disclaimer" className="text-gray-400 hover:text-secondary transition-colors no-underline">Disclaimer & DMCA</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +56,7 @@ export default function Footer() {
                 <div className="ad-slot mb-8 py-4" id="footer-ad">Advertisement</div>
 
                 <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
-                    <p>&copy; {new Date().getFullYear()} PDFMaster Pro. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} PDFHelper. All rights reserved.</p>
                     <p>Made with ❤️ for productivity</p>
                 </div>
             </div>

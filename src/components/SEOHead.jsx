@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 export default function SEOHead({ title, description, keywords, path = '' }) {
-    const siteName = 'PDFMaster Pro';
+    const siteName = 'PDFHelper';
     const baseUrl = 'https://pdfmasterpro.com';
     const fullTitle = title ? `${title} | ${siteName}` : `${siteName} – Free Online PDF Tools`;
     const pageUrl = `${baseUrl}${path}`;

@@ -15,11 +15,11 @@ const tools = [
 ];
 
 const faqs = [
-    { q: 'Is PDFMaster Pro free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
+    { q: 'Is PDFHelper free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
     { q: 'Are my files secure?', a: 'Absolutely. Files are processed securely and automatically deleted after 30 minutes. We never store your files permanently.' },
     { q: 'What is the maximum file size?', a: 'You can upload files up to 100MB in size. For larger files, consider compressing them first.' },
     { q: 'Do I need to install any software?', a: 'No installation needed. All tools work directly in your browser.' },
-    { q: 'Can I use these tools on mobile?', a: 'Yes! PDFMaster Pro is fully responsive and works perfectly on mobile devices and tablets.' },
+    { q: 'Can I use these tools on mobile?', a: 'Yes! PDFHelper is fully responsive and works perfectly on mobile devices and tablets.' },
 ];
 
 export default function Home() {
@@ -237,7 +237,7 @@ export default function Home() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "SoftwareApplication",
-                    "name": "PDFMaster Pro",
+                    "name": "PDFHelper",
                     "applicationCategory": "UtilitiesApplication",
                     "operatingSystem": "Web",
                     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },

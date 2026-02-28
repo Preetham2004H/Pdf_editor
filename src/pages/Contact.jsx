@@ -16,7 +16,7 @@ export default function Contact() {
         <>
             <SEOHead
                 title="Contact Us"
-                description="Get in touch with PDFMaster Pro team. We'd love to hear your feedback, questions, or suggestions."
+                description="Get in touch with PDFHelper team. We'd love to hear your feedback, questions, or suggestions."
                 path="/contact"
             />
             <section className="section-padding">

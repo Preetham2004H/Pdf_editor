@@ -34,7 +34,7 @@ export default function Navbar() {
                             <polyline points="10 9 9 9 8 9" />
                         </svg>
                     </div>
-                    <span className="font-bold text-lg gradient-text hidden sm:block">PDFMaster Pro</span>
+                    <span className="font-bold text-lg gradient-text hidden sm:block">PDFHelper</span>
                 </Link>
 
                 {/* Desktop Nav */}

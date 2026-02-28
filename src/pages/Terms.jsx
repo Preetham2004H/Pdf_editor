@@ -6,7 +6,7 @@ export default function Terms() {
         <>
             <SEOHead
                 title="Terms & Conditions"
-                description="PDFMaster Pro Terms and Conditions. Read our terms of service before using our free PDF tools."
+                description="PDFHelper Terms and Conditions. Read our terms of service before using our free PDF tools."
                 path="/terms"
             />
             <section className="section-padding">
@@ -18,11 +18,11 @@ export default function Terms() {
                         <div className="glass-card p-8 space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">1. Acceptance of Terms</h2>
-                                <p>By accessing and using PDFMaster Pro, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our service.</p>
+                                <p>By accessing and using PDFHelper, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our service.</p>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">2. Use of Service</h2>
-                                <p>PDFMaster Pro provides free online PDF tools. You agree to use these tools only for lawful purposes. You must not use our service to process files containing illegal content, malware, or copyrighted material without authorization.</p>
+                                <p>PDFHelper provides free online PDF tools. You agree to use these tools only for lawful purposes. You must not use our service to process files containing illegal content, malware, or copyrighted material without authorization.</p>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">3. File Processing</h2>
@@ -34,11 +34,11 @@ export default function Terms() {
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">5. Intellectual Property</h2>
-                                <p>All content, design, and functionality of PDFMaster Pro are owned by us and protected by copyright laws. You retain full ownership of all files you process using our tools.</p>
+                                <p>All content, design, and functionality of PDFHelper are owned by us and protected by copyright laws. You retain full ownership of all files you process using our tools.</p>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">6. Limitation of Liability</h2>
-                                <p>PDFMaster Pro shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of our service. This includes but is not limited to data loss, service interruptions, or processing errors.</p>
+                                <p>PDFHelper shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of our service. This includes but is not limited to data loss, service interruptions, or processing errors.</p>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. Changes to Terms</h2>

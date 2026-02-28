@@ -17,6 +17,7 @@ const Privacy = lazy(() => import('./pages/Privacy'));
 const Terms = lazy(() => import('./pages/Terms'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
+const Disclaimer = lazy(() => import('./pages/Disclaimer'));
 
 function PageLoader() {
   return (
@@ -62,6 +63,7 @@ function AnimatedRoutes() {
             <Route path="/terms" element={<Terms />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
           </Routes>
         </Suspense>
       </motion.div>
