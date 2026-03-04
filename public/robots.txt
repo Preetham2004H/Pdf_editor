@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://pdfmasterpro.com/sitemap.xml
+Sitemap: https://donpdf.com/sitemap.xml

@@ -6,43 +6,117 @@ export default function Privacy() {
         <>
             <SEOHead
                 title="Privacy Policy"
-                description="PDFHelper Privacy Policy. Learn how we handle your data and protect your privacy."
+                description="DonPDF Privacy Policy – Learn how we protect your data, handle files, and comply with Google Analytics, AdSense, and GDPR requirements."
+                keywords="donpdf privacy policy, pdf tool privacy, data protection, adsense compliant privacy policy"
                 path="/privacy"
             />
             <section className="section-padding">
                 <div className="container-main max-w-3xl">
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                         <h1 className="text-4xl font-bold mb-6">Privacy <span className="gradient-text">Policy</span></h1>
-                        <p className="text-sm text-gray-400 mb-8">Last updated: February 2026</p>
+                        <p className="text-sm text-gray-400 mb-8">Last updated: March 2026</p>
 
                         <div className="glass-card p-8 space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                             <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">Introduction</h2>
+                                <p>Welcome to DonPDF ("we," "our," or "us"). DonPDF is a free online PDF editing and compression platform available at donpdf.com. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this policy carefully. By using DonPDF, you consent to the practices described in this policy.</p>
+                            </div>
+
+                            <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">1. Information We Collect</h2>
-                                <p>PDFHelper is designed with privacy in mind. We process your PDF files directly in your browser whenever possible. We do not permanently store any files you upload. When server-side processing is required, files are automatically deleted within 30 minutes of processing.</p>
+                                <p className="mb-3">DonPDF is designed with privacy as a core principle. We collect the following types of information:</p>
+                                <ul className="list-disc pl-6 space-y-2">
+                                    <li><strong>Usage Data:</strong> We collect anonymous usage data such as pages visited, tools used, and browser type through Google Analytics.</li>
+                                    <li><strong>Log Data:</strong> Our servers automatically record standard log information including IP address, browser type, referring pages, and timestamps.</li>
+                                    <li><strong>Cookies:</strong> We use cookies for essential site functionality, theme preferences, and third-party advertising.</li>
+                                    <li><strong>Uploaded Files:</strong> Files you upload for processing are handled temporarily and never stored permanently on our servers.</li>
+                                </ul>
+                                <p className="mt-3">We do <strong>not</strong> collect your name, email address, or any personally identifiable information unless you voluntarily contact us.</p>
                             </div>
+
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">2. How We Use Your Information</h2>
-                                <p>We use anonymous analytics data to improve our services and understand how users interact with our tools. We do not sell, trade, or transfer your personal information to third parties. We may use cookies to enhance your browsing experience and serve relevant advertisements through Google AdSense.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">2. File Security & Processing</h2>
+                                <p className="mb-3">Your file security is our top priority:</p>
+                                <ul className="list-disc pl-6 space-y-2">
+                                    <li>Most PDF operations run entirely in your browser (client-side) — your files never leave your device.</li>
+                                    <li>For server-side operations, all file transfers are encrypted using HTTPS/TLS.</li>
+                                    <li>Files uploaded to our servers are stored in isolated, secure environments and are <strong>automatically deleted within 30 minutes</strong> of processing.</li>
+                                    <li>We do not access, read, analyze, or share the content of your files with any third party.</li>
+                                    <li>We do not permanently store any files you upload to DonPDF.</li>
+                                </ul>
                             </div>
+
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">3. File Security</h2>
-                                <p>All file transfers are encrypted using HTTPS. Files uploaded for server-side processing are stored temporarily in secure, isolated environments and are automatically deleted after 30 minutes. We do not access, read, or analyze the content of your files.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">3. Google Analytics</h2>
+                                <p>We use Google Analytics to understand how visitors interact with our website. Google Analytics collects anonymous data about your usage patterns, device type, geographic location (at country/city level), and session duration. This data helps us improve our tools and user experience.</p>
+                                <p className="mt-3">Google Analytics uses cookies to identify returning visitors. You can opt out of Google Analytics tracking by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google Analytics Opt-out Browser Add-on</a>.</p>
                             </div>
+
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">4. Cookies & Advertising</h2>
-                                <p>We use cookies for essential site functionality, theme preferences, and analytics. Third-party advertising partners, including Google AdSense, may use cookies to serve personalized ads. You can manage your cookie preferences through our cookie consent banner or your browser settings.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">4. Google AdSense & Advertising</h2>
+                                <p>We use Google AdSense to display advertisements on DonPDF. Google AdSense uses cookies and web beacons to serve ads based on your prior visits to our website and other websites on the internet.</p>
+                                <p className="mt-3">Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google Ads Settings</a>.</p>
+                                <p className="mt-3">Third-party vendors, including Google, use cookies to serve ads based on prior visits. For more information, visit <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google's advertising policies</a>.</p>
                             </div>
+
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">5. GDPR Compliance</h2>
-                                <p>If you're a European Union resident, you have the right to access, rectify, or delete your personal data. You can also object to processing or request data portability. Contact us at privacy@pdfmasterpro.com for any GDPR-related requests.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">5. Cookies Policy</h2>
+                                <p className="mb-3">We use the following types of cookies:</p>
+                                <ul className="list-disc pl-6 space-y-2">
+                                    <li><strong>Essential Cookies:</strong> Necessary for the website to function properly (e.g., theme preferences).</li>
+                                    <li><strong>Analytics Cookies:</strong> Used by Google Analytics to track anonymous usage statistics.</li>
+                                    <li><strong>Advertising Cookies:</strong> Set by Google AdSense to deliver personalized or non-personalized ads.</li>
+                                </ul>
+                                <p className="mt-3">You can control or delete cookies through your browser settings. Note that rejecting cookies may affect some website functionality.</p>
                             </div>
+
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">6. Changes to This Policy</h2>
-                                <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date. Continued use of our services constitutes acceptance of the updated policy.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">6. How We Use Your Information</h2>
+                                <p className="mb-3">We use the information collected to:</p>
+                                <ul className="list-disc pl-6 space-y-2">
+                                    <li>Provide, maintain, and improve our PDF tools and services</li>
+                                    <li>Analyze usage trends and understand how users interact with our tools</li>
+                                    <li>Display relevant advertisements through Google AdSense</li>
+                                    <li>Detect and prevent fraud or abuse of our services</li>
+                                    <li>Comply with legal obligations</li>
+                                </ul>
+                                <p className="mt-3">We do not sell, rent, or share your personal information with third parties for their marketing purposes.</p>
                             </div>
+
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. Contact Us</h2>
-                                <p>If you have any questions about this privacy policy, please contact us at privacy@pdfmasterpro.com.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. GDPR Rights (EU Users)</h2>
+                                <p className="mb-3">If you are a resident of the European Union, you have the following rights under the General Data Protection Regulation (GDPR):</p>
+                                <ul className="list-disc pl-6 space-y-2">
+                                    <li>Right to access your personal data</li>
+                                    <li>Right to rectification of inaccurate data</li>
+                                    <li>Right to erasure ("right to be forgotten")</li>
+                                    <li>Right to restrict processing</li>
+                                    <li>Right to data portability</li>
+                                    <li>Right to object to processing</li>
+                                </ul>
+                                <p className="mt-3">To exercise any of these rights, please contact us at privacy@donpdf.com.</p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">8. Children's Privacy</h2>
+                                <p>DonPDF is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us immediately at privacy@donpdf.com.</p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">9. Third-Party Links</h2>
+                                <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We encourage you to review the privacy policies of any sites you visit.</p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">10. Changes to This Policy</h2>
+                                <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Your continued use of DonPDF after any changes constitutes acceptance of the updated policy.</p>
+                            </div>
+
+                            <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">11. Contact Us</h2>
+                                <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at:</p>
+                                <p className="mt-2"><strong>Email:</strong> privacy@donpdf.com</p>
+                                <p><strong>Website:</strong> <a href="https://donpdf.com" className="text-primary hover:underline">donpdf.com</a></p>
                             </div>
                         </div>
                     </motion.div>

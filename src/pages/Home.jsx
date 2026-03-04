@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import ToolCard from '../components/ToolCard';
 import AdBanner from '../components/AdBanner';
 import SEOHead from '../components/SEOHead';
@@ -15,20 +16,30 @@ const tools = [
 ];
 
 const faqs = [
-    { q: 'Is PDFHelper free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
+    { q: 'Is DonPDF free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
     { q: 'Are my files secure?', a: 'Absolutely. Files are processed securely and automatically deleted after 30 minutes. We never store your files permanently.' },
     { q: 'What is the maximum file size?', a: 'You can upload files up to 100MB in size. For larger files, consider compressing them first.' },
     { q: 'Do I need to install any software?', a: 'No installation needed. All tools work directly in your browser.' },
-    { q: 'Can I use these tools on mobile?', a: 'Yes! PDFHelper is fully responsive and works perfectly on mobile devices and tablets.' },
+    { q: 'Can I use these tools on mobile?', a: 'Yes! DonPDF is fully responsive and works perfectly on mobile devices and tablets.' },
+    { q: 'How long does it take to process a PDF?', a: 'Most operations complete in seconds. Processing time depends on your file size and internet connection.' },
+];
+
+const whyChoose = [
+    { icon: '⚡', title: 'Lightning Fast', desc: 'Process your PDF files in seconds. Our optimized tools deliver instant results without any waiting.' },
+    { icon: '🔒', title: '100% Secure', desc: 'Files are processed in your browser and auto-deleted from servers within 30 minutes. Your privacy is our priority.' },
+    { icon: '💰', title: 'Completely Free', desc: 'All tools are free forever. No hidden fees, no subscriptions, no credit card required.' },
+    { icon: '📱', title: 'Works Everywhere', desc: 'Works on any device — desktop, tablet, or mobile. No software installation needed.' },
+    { icon: '🌐', title: 'No Registration', desc: 'Start using any tool instantly. No sign-up, no login, no personal information required.' },
+    { icon: '✨', title: 'High Quality', desc: 'Preserve the original quality of your documents. Our compression maintains visual clarity.' },
 ];
 
 export default function Home() {
     return (
         <>
             <SEOHead
-                title="Free Online PDF Tools"
-                description="Free online PDF tools to merge, split, compress, convert, and edit your PDF files. Fast, secure, and easy to use. No registration required."
-                keywords="free pdf converter, image to pdf online, compress pdf free, remove pdf pages, pdf watermark remover, merge pdf, split pdf"
+                title="Free Online PDF Tools – Merge, Split, Compress & Convert"
+                description="DonPDF offers free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and works in your browser. No registration required."
+                keywords="free pdf tools, compress pdf online, merge pdf free, split pdf, convert pdf, donpdf, online pdf editor, pdf compressor"
                 path="/"
             />
 
@@ -64,7 +75,7 @@ export default function Home() {
                         </h1>
 
                         <p className="text-lg sm:text-xl text-gray-500 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-                            Merge, split, compress, convert, add watermarks, and more — all for free. Fast, secure, and works right in your browser.
+                            Merge, split, compress, convert, add watermarks, and more — all for free on DonPDF. Fast, secure, and works right in your browser.
                         </p>
 
                         <motion.div
@@ -119,8 +130,44 @@ export default function Home() {
                 <AdBanner type="in-content" id="home-content-ad" />
             </div>
 
+            {/* Why Choose DonPDF */}
+            <section id="why-choose" className="section-padding bg-gray-50 dark:bg-gray-800/30">
+                <div className="container-main">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-12"
+                    >
+                        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+                            Why Choose <span className="gradient-text">DonPDF?</span>
+                        </h2>
+                        <p className="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
+                            Trusted by students, professionals, and businesses worldwide for all their PDF needs.
+                        </p>
+                    </motion.div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {whyChoose.map((item, i) => (
+                            <motion.div
+                                key={item.title}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: i * 0.1 }}
+                                className="glass-card p-6"
+                            >
+                                <div className="text-3xl mb-3">{item.icon}</div>
+                                <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-100">{item.title}</h3>
+                                <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{item.desc}</p>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* How It Works */}
-            <section id="how-it-works" className="section-padding bg-gray-50 dark:bg-gray-800/30">
+            <section id="how-it-works" className="section-padding">
                 <div className="container-main">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -161,11 +208,11 @@ export default function Home() {
             </section>
 
             {/* Stats Section */}
-            <section className="section-padding">
+            <section className="section-padding bg-gray-50 dark:bg-gray-800/30">
                 <div className="container-main">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                         {[
-                            { number: '9+', label: 'PDF Tools' },
+                            { number: '8+', label: 'PDF Tools' },
                             { number: '100%', label: 'Free to Use' },
                             { number: '100MB', label: 'Max File Size' },
                             { number: '30min', label: 'Auto File Delete' },
@@ -183,6 +230,29 @@ export default function Home() {
                             </motion.div>
                         ))}
                     </div>
+                </div>
+            </section>
+
+            {/* Blog CTA */}
+            <section className="section-padding">
+                <div className="container-main">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="glass-card p-8 md:p-12 text-center relative overflow-hidden"
+                    >
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 pointer-events-none" />
+                        <div className="relative">
+                            <h2 className="text-2xl sm:text-3xl font-bold mb-3">Learn PDF Tips & Tricks</h2>
+                            <p className="text-gray-500 dark:text-gray-400 mb-6 max-w-xl mx-auto">
+                                Explore our free blog with expert guides on compressing, merging, splitting, and managing PDF files like a pro.
+                            </p>
+                            <Link to="/blog" className="btn-primary !px-8 !py-3 !rounded-xl inline-block">
+                                Read Our Blog
+                            </Link>
+                        </div>
+                    </motion.div>
                 </div>
             </section>
 
@@ -237,11 +307,12 @@ export default function Home() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "SoftwareApplication",
-                    "name": "PDFHelper",
+                    "name": "DonPDF",
                     "applicationCategory": "UtilitiesApplication",
                     "operatingSystem": "Web",
                     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-                    "description": "Free online PDF tools to merge, split, compress, convert, and edit PDF files."
+                    "description": "Free online PDF tools to merge, split, compress, convert, and edit PDF files.",
+                    "url": "https://donpdf.com"
                 })
             }} />
         </>

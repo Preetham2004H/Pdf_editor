@@ -16,7 +16,8 @@ export default function Contact() {
         <>
             <SEOHead
                 title="Contact Us"
-                description="Get in touch with PDFHelper team. We'd love to hear your feedback, questions, or suggestions."
+                description="Get in touch with the DonPDF team. We'd love to hear your feedback, questions, or suggestions about our free PDF tools."
+                keywords="contact donpdf, pdf tool support, feedback, customer service"
                 path="/contact"
             />
             <section className="section-padding">
