@@ -12,7 +12,7 @@ const articleContent = {
       <p>The good news is that you can significantly reduce PDF file size without any noticeable loss in quality. This guide walks you through the most effective compression techniques available today.</p>
 
       <h2>Method 1: Online PDF Compression</h2>
-      <p>The quickest way to compress a PDF is using an online tool like DonPDF. Our compression tool uses smart algorithms that optimize images, remove unnecessary metadata, and streamline the file structure while preserving visual quality.</p>
+      <p>The quickest way to compress a PDF is using an online tool like PDFHelperEdit. Our compression tool uses smart algorithms that optimize images, remove unnecessary metadata, and streamline the file structure while preserving visual quality.</p>
       <p><strong>Steps:</strong></p>
       <ol>
         <li>Go to the <a href="/tools/compress-pdf">Compress PDF</a> tool</li>
@@ -61,8 +61,8 @@ const articleContent = {
       </ul>
 
       <h2>Top Free PDF Tools</h2>
-      <h3>1. DonPDF</h3>
-      <p>DonPDF offers a comprehensive suite of 9 free PDF tools. What sets it apart is client-side processing â€” your files never leave your browser, ensuring maximum privacy and security. With fast processing, clean UI, and no registration required, it's a top choice for everyday PDF needs.</p>
+      <h3>1. PDFHelperEdit</h3>
+      <p>PDFHelperEdit offers a comprehensive suite of 9 free PDF tools. What sets it apart is client-side processing â€” your files never leave your browser, ensuring maximum privacy and security. With fast processing, clean UI, and no registration required, it's a top choice for everyday PDF needs.</p>
 
       <h3>2. Merge PDF</h3>
       <p>Need to combine multiple documents? The <a href="/tools/merge-pdf">Merge PDF</a> tool lets you drag and drop multiple files and combine them in any order. Perfect for creating comprehensive reports from separate sections.</p>
@@ -71,10 +71,10 @@ const articleContent = {
       <p>Converting images to PDF is one of the most common tasks. Our <a href="/tools/image-to-pdf">Image to PDF</a> converter supports JPG, PNG, WebP, and other formats. Simply upload your images and download a perfectly formatted PDF.</p>
 
       <h2>Privacy and Security Considerations</h2>
-      <p>When choosing an online PDF tool, privacy should be a top priority. Look for tools that process files client-side (in your browser) rather than uploading to remote servers. DonPDF processes most operations directly in your browser, and any server-processed files are automatically deleted within 30 minutes.</p>
+      <p>When choosing an online PDF tool, privacy should be a top priority. Look for tools that process files client-side (in your browser) rather than uploading to remote servers. PDFHelperEdit processes most operations directly in your browser, and any server-processed files are automatically deleted within 30 minutes.</p>
 
       <h2>Conclusion</h2>
-      <p>Free online PDF tools have made document management accessible to everyone. Whether you need to merge documents for work, compress files for email, or convert images to PDF, there's a free tool available for every need. Try <a href="/">DonPDF</a> today and experience the difference.</p>
+      <p>Free online PDF tools have made document management accessible to everyone. Whether you need to merge documents for work, compress files for email, or convert images to PDF, there's a free tool available for every need. Try <a href="/">PDFHelperEdit</a> today and experience the difference.</p>
     `,
   },
   'how-to-add-watermark-to-pdf': {
@@ -89,7 +89,7 @@ const articleContent = {
         <li><strong>Background watermarks:</strong> Subtle patterns or colors applied behind the content</li>
       </ul>
 
-      <h2>How to Add a Watermark Using DonPDF</h2>
+      <h2>How to Add a Watermark Using PDFHelperEdit</h2>
       <p>Adding a watermark to your PDF is simple with our free online tool:</p>
       <ol>
         <li>Open the <a href="/tools/add-watermark">Add Watermark</a> tool</li>
@@ -108,7 +108,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Watermarking PDFs is an essential skill for document security. With DonPDF's <a href="/tools/add-watermark">free watermark tool</a>, you can protect your documents in seconds without any software installation.</p>
+      <p>Watermarking PDFs is an essential skill for document security. With PDFHelperEdit's <a href="/tools/add-watermark">free watermark tool</a>, you can protect your documents in seconds without any software installation.</p>
     `,
   },
   'how-to-convert-jpg-to-pdf': {
@@ -116,7 +116,7 @@ const articleContent = {
       <h2>Why Convert JPG to PDF?</h2>
       <p>Converting images to PDF format is essential for many professional and personal tasks. PDFs maintain consistent formatting across all devices, are easier to share as single documents, and can be password-protected for sensitive content.</p>
 
-      <h2>Quick Conversion with DonPDF</h2>
+      <h2>Quick Conversion with PDFHelperEdit</h2>
       <p>Our <a href="/tools/image-to-pdf">Image to PDF converter</a> makes this process incredibly simple:</p>
       <ol>
         <li>Open the Image to PDF tool</li>
@@ -143,7 +143,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Converting JPG to PDF is one of those everyday tasks that should be simple and free. With DonPDF, it is. Try our <a href="/tools/image-to-pdf">Image to PDF tool</a> today.</p>
+      <p>Converting JPG to PDF is one of those everyday tasks that should be simple and free. With PDFHelperEdit, it is. Try our <a href="/tools/image-to-pdf">Image to PDF tool</a> today.</p>
     `,
   },
   'reduce-pdf-size-for-email': {
@@ -165,7 +165,7 @@ const articleContent = {
 
       <h2>5 Ways to Reduce PDF Size</h2>
       <ol>
-        <li><strong>Online compression:</strong> Fastest method â€” use DonPDF's compress tool</li>
+        <li><strong>Online compression:</strong> Fastest method â€” use PDFHelperEdit's compress tool</li>
         <li><strong>Remove pages:</strong> Delete unnecessary pages using our <a href="/tools/remove-pages">Remove Pages</a> tool</li>
         <li><strong>Split the document:</strong> <a href="/tools/split-pdf">Split</a> into smaller segments and send separately</li>
         <li><strong>Reduce image quality:</strong> In the original document software, lower image DPI</li>
@@ -181,7 +181,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Don't let file size limits hold back your productivity. With the right tools, reducing PDF size for email is a quick, painless process. Visit <a href="/tools/compress-pdf">DonPDF's compress tool</a> and solve your file size problems instantly.</p>
+      <p>Don't let file size limits hold back your productivity. With the right tools, reducing PDF size for email is a quick, painless process. Visit <a href="/tools/compress-pdf">PDFHelperEdit's compress tool</a> and solve your file size problems instantly.</p>
     `,
   },
   'how-to-merge-pdf-files': {
@@ -189,7 +189,7 @@ const articleContent = {
       <h2>Why Merge PDF Files?</h2>
       <p>In many professional and academic situations, you need to combine multiple PDF documents into a single file. Whether you're assembling a business proposal from different departments, combining scanned receipts for expense reports, or merging chapters of a report, having a reliable merge tool saves hours of frustration.</p>
 
-      <h2>How to Merge PDFs with DonPDF</h2>
+      <h2>How to Merge PDFs with PDFHelperEdit</h2>
       <p>Our <a href="/tools/merge-pdf">Merge PDF</a> tool makes combining files effortless:</p>
       <ol>
         <li>Open the Merge PDF tool</li>
@@ -217,7 +217,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Merging PDFs doesn't have to be complicated or expensive. With DonPDF's free <a href="/tools/merge-pdf">Merge PDF tool</a>, you can combine any number of documents in seconds, right from your browser. Try it today and streamline your document workflow.</p>
+      <p>Merging PDFs doesn't have to be complicated or expensive. With PDFHelperEdit's free <a href="/tools/merge-pdf">Merge PDF tool</a>, you can combine any number of documents in seconds, right from your browser. Try it today and streamline your document workflow.</p>
     `,
   },
   'how-to-split-pdf-into-separate-pages': {
@@ -225,7 +225,7 @@ const articleContent = {
       <h2>When Do You Need to Split a PDF?</h2>
       <p>Large PDF documents can be unwieldy. Maybe you only need a few pages from a 100-page report, or you want to send specific sections to different people. Splitting a PDF lets you extract exactly what you need without sharing the entire document.</p>
 
-      <h2>How to Split PDFs Using DonPDF</h2>
+      <h2>How to Split PDFs Using PDFHelperEdit</h2>
       <p>Our <a href="/tools/split-pdf">Split PDF</a> tool offers flexible splitting options:</p>
       <ol>
         <li>Upload your PDF file to the Split PDF tool</li>
@@ -257,7 +257,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Splitting PDFs is a must-have skill for efficient document management. Whether for work, school, or personal projects, DonPDF's free <a href="/tools/split-pdf">Split PDF tool</a> gives you complete control over your documents.</p>
+      <p>Splitting PDFs is a must-have skill for efficient document management. Whether for work, school, or personal projects, PDFHelperEdit's free <a href="/tools/split-pdf">Split PDF tool</a> gives you complete control over your documents.</p>
     `,
   },
   'pdf-security-tips-protect-your-documents': {
@@ -267,7 +267,7 @@ const articleContent = {
 
       <h2>Watermarking for Document Protection</h2>
       <p>Adding a watermark is one of the most effective ways to protect your PDF documents. Watermarks serve as a visual deterrent against unauthorized copying and clearly identify the document's owner or status.</p>
-      <p>With DonPDF's <a href="/tools/add-watermark">Add Watermark</a> tool, you can:</p>
+      <p>With PDFHelperEdit's <a href="/tools/add-watermark">Add Watermark</a> tool, you can:</p>
       <ul>
         <li>Add custom text watermarks like "CONFIDENTIAL" or "DRAFT"</li>
         <li>Adjust watermark opacity so it's visible but doesn't obstruct content</li>
@@ -293,7 +293,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Document security doesn't have to be expensive or complicated. Simple measures like watermarking, metadata removal, and secure sharing practices go a long way. Start protecting your documents with DonPDF's free <a href="/tools/add-watermark">watermark tool</a> today.</p>
+      <p>Document security doesn't have to be expensive or complicated. Simple measures like watermarking, metadata removal, and secure sharing practices go a long way. Start protecting your documents with PDFHelperEdit's free <a href="/tools/add-watermark">watermark tool</a> today.</p>
     `,
   },
   'pdf-vs-word-when-to-use-which-format': {
@@ -321,7 +321,7 @@ const articleContent = {
       </ul>
 
       <h2>Converting Between Formats</h2>
-      <p>Often, you'll create a document in Word and then convert to PDF for distribution. DonPDF can help with the reverse workflow â€” converting PDF content to images that can be included in Word documents using our <a href="/tools/pdf-to-image">PDF to Image</a> tool.</p>
+      <p>Often, you'll create a document in Word and then convert to PDF for distribution. PDFHelperEdit can help with the reverse workflow â€” converting PDF content to images that can be included in Word documents using our <a href="/tools/pdf-to-image">PDF to Image</a> tool.</p>
       <p>You can also convert images back to PDF format using our <a href="/tools/image-to-pdf">Image to PDF</a> converter when you need to compile visual content into a portable document.</p>
 
       <h2>Quick Comparison</h2>
@@ -333,7 +333,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Use Word for creation and collaboration, PDF for final distribution and archival. Understanding when to use each format makes you more professional and efficient. When you need PDF tools, <a href="/">DonPDF</a> has everything you need â€” for free.</p>
+      <p>Use Word for creation and collaboration, PDF for final distribution and archival. Understanding when to use each format makes you more professional and efficient. When you need PDF tools, <a href="/">PDFHelperEdit</a> has everything you need â€” for free.</p>
     `,
   },
   'how-to-remove-pages-from-pdf': {
@@ -341,7 +341,7 @@ const articleContent = {
       <h2>Why Remove Pages from PDFs?</h2>
       <p>Not every page in a PDF is worth keeping. Blank pages, outdated content, irrelevant sections, or sensitive information might need to be removed before sharing a document. Manually recreating a document without certain pages is tedious â€” but with the right tool, it takes seconds.</p>
 
-      <h2>Step-by-Step: Remove Pages with DonPDF</h2>
+      <h2>Step-by-Step: Remove Pages with PDFHelperEdit</h2>
       <ol>
         <li>Open the <a href="/tools/remove-pages">Remove Pages</a> tool</li>
         <li>Upload your PDF file</li>
@@ -367,7 +367,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Page removal is one of the most frequently needed PDF operations. DonPDF makes it fast and free â€” no software installation required. Try the <a href="/tools/remove-pages">Remove Pages tool</a> and clean up your documents in seconds.</p>
+      <p>Page removal is one of the most frequently needed PDF operations. PDFHelperEdit makes it fast and free â€” no software installation required. Try the <a href="/tools/remove-pages">Remove Pages tool</a> and clean up your documents in seconds.</p>
     `,
   },
   'batch-convert-images-to-pdf': {
@@ -375,7 +375,7 @@ const articleContent = {
       <h2>What Is Batch Image to PDF Conversion?</h2>
       <p>Batch conversion lets you transform multiple images into a single PDF document at once. Instead of converting images one at a time and then merging, batch processing handles everything in a single step â€” saving you significant time and effort.</p>
 
-      <h2>How to Batch Convert with DonPDF</h2>
+      <h2>How to Batch Convert with PDFHelperEdit</h2>
       <p>Our <a href="/tools/image-to-pdf">Image to PDF</a> converter supports batch processing out of the box:</p>
       <ol>
         <li>Open the Image to PDF tool</li>
@@ -386,7 +386,7 @@ const articleContent = {
       </ol>
 
       <h2>Supported Image Formats</h2>
-      <p>DonPDF supports a wide range of image formats for conversion:</p>
+      <p>PDFHelperEdit supports a wide range of image formats for conversion:</p>
       <ul>
         <li><strong>JPG/JPEG:</strong> The most common photo format, ideal for photographs and web images</li>
         <li><strong>PNG:</strong> Perfect for screenshots, diagrams, and images with transparency</li>
@@ -411,7 +411,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Batch image-to-PDF conversion is a massive time-saver. DonPDF handles the entire process in your browser â€” free, fast, and secure. Try the <a href="/tools/image-to-pdf">Image to PDF tool</a> today.</p>
+      <p>Batch image-to-PDF conversion is a massive time-saver. PDFHelperEdit handles the entire process in your browser â€” free, fast, and secure. Try the <a href="/tools/image-to-pdf">Image to PDF tool</a> today.</p>
     `,
   },
   'pdf-tools-for-students': {
@@ -445,7 +445,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>The right PDF tools make academic work faster and more organized. All <a href="/">DonPDF</a> tools are 100% free â€” perfect for students on a budget. No software to install, no accounts to create â€” just upload, process, and download.</p>
+      <p>The right PDF tools make academic work faster and more organized. All <a href="/">PDFHelperEdit</a> tools are 100% free â€” perfect for students on a budget. No software to install, no accounts to create â€” just upload, process, and download.</p>
     `,
   },
   'how-to-convert-pdf-to-image': {
@@ -453,7 +453,7 @@ const articleContent = {
       <h2>Why Convert PDF to Image?</h2>
       <p>There are many situations where you need PDF content as an image rather than a document. Social media posts, website content, presentation slides, and email signatures often require image formats that PDFs simply can't provide.</p>
 
-      <h2>Convert PDF to Image with DonPDF</h2>
+      <h2>Convert PDF to Image with PDFHelperEdit</h2>
       <p>Our <a href="/tools/pdf-to-image">PDF to Image</a> converter extracts each page as a high-quality image:</p>
       <ol>
         <li>Upload your PDF file to the PDF to Image tool</li>
@@ -482,7 +482,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>PDF to image conversion is essential for content sharing across platforms. DonPDF's free <a href="/tools/pdf-to-image">PDF to Image tool</a> delivers high-quality results directly in your browser. Give it a try today.</p>
+      <p>PDF to image conversion is essential for content sharing across platforms. PDFHelperEdit's free <a href="/tools/pdf-to-image">PDF to Image tool</a> delivers high-quality results directly in your browser. Give it a try today.</p>
     `,
   },
   'optimize-pdf-for-web-upload': {
@@ -518,7 +518,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Web-optimized PDFs upload faster, comply with size limits, and provide a better experience for everyone. Use <a href="/">DonPDF's free tools</a> to get your PDFs web-ready in seconds.</p>
+      <p>Web-optimized PDFs upload faster, comply with size limits, and provide a better experience for everyone. Use <a href="/">PDFHelperEdit's free tools</a> to get your PDFs web-ready in seconds.</p>
     `,
   },
   'remove-watermark-from-pdf-guide': {
@@ -535,7 +535,7 @@ const articleContent = {
         <li><strong>Personal documents:</strong> Removing watermarks from your own templates or documents</li>
       </ul>
 
-      <h2>How to Remove Watermarks with DonPDF</h2>
+      <h2>How to Remove Watermarks with PDFHelperEdit</h2>
       <ol>
         <li>Open the <a href="/tools/remove-watermark">Remove Watermark</a> tool</li>
         <li>Upload your watermarked PDF</li>
@@ -552,7 +552,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Watermark removal is a useful tool when used responsibly. DonPDF's <a href="/tools/remove-watermark">Remove Watermark tool</a> provides a quick, free way to clean up your own documents. Always ensure you have the right to modify the document before removing watermarks.</p>
+      <p>Watermark removal is a useful tool when used responsibly. PDFHelperEdit's <a href="/tools/remove-watermark">Remove Watermark tool</a> provides a quick, free way to clean up your own documents. Always ensure you have the right to modify the document before removing watermarks.</p>
     `,
   },
   'pdf-accessibility-guide': {
@@ -593,7 +593,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Creating accessible PDFs is both a legal obligation and a moral responsibility. While DonPDF focuses on PDF manipulation tools, we encourage all users to prioritize accessibility in their document workflows. Better accessibility means better documents for everyone.</p>
+      <p>Creating accessible PDFs is both a legal obligation and a moral responsibility. While PDFHelperEdit focuses on PDF manipulation tools, we encourage all users to prioritize accessibility in their document workflows. Better accessibility means better documents for everyone.</p>
     `,
   },
   'digital-signatures-in-pdf': {
@@ -636,7 +636,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>Digital signatures are essential for secure, legally binding document workflows. While DonPDF doesn't directly add digital signatures, our tools help you prepare, organize, and finalize documents before the signing process. Use our <a href="/">free PDF tools</a> to get your documents signature-ready.</p>
+      <p>Digital signatures are essential for secure, legally binding document workflows. While PDFHelperEdit doesn't directly add digital signatures, our tools help you prepare, organize, and finalize documents before the signing process. Use our <a href="/">free PDF tools</a> to get your documents signature-ready.</p>
     `,
   },
   'pdf-forms-create-and-fill': {
@@ -656,7 +656,7 @@ const articleContent = {
       </ul>
 
       <h2>Creating PDF Forms</h2>
-      <p>While creating fillable PDF forms requires specialized software like Adobe Acrobat or LibreOffice, you can prepare the foundation using DonPDF:</p>
+      <p>While creating fillable PDF forms requires specialized software like Adobe Acrobat or LibreOffice, you can prepare the foundation using PDFHelperEdit:</p>
       <ol>
         <li>Design your form layout and convert to PDF using <a href="/tools/image-to-pdf">Image to PDF</a></li>
         <li>Merge multiple form pages with the <a href="/tools/merge-pdf">Merge PDF</a> tool</li>
@@ -674,7 +674,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>PDF forms streamline data collection and eliminate the need for paper-based processes. Whether you're creating application forms, surveys, or contracts, efficient form design saves time for both creators and users. Use <a href="/">DonPDF's tools</a> to prepare and distribute your PDF forms.</p>
+      <p>PDF forms streamline data collection and eliminate the need for paper-based processes. Whether you're creating application forms, surveys, or contracts, efficient form design saves time for both creators and users. Use <a href="/">PDFHelperEdit's tools</a> to prepare and distribute your PDF forms.</p>
     `,
   },
   'pdf-metadata-what-it-is-and-why-it-matters': {
@@ -713,7 +713,7 @@ const articleContent = {
       </ul>
 
       <h2>Conclusion</h2>
-      <p>PDF metadata is a double-edged sword â€” useful for organization but potentially risky for privacy. Understanding and managing your PDF metadata is an import part of document security. Use <a href="/">DonPDF's suite of tools</a> to process and manage your PDFs effectively.</p>
+      <p>PDF metadata is a double-edged sword â€” useful for organization but potentially risky for privacy. Understanding and managing your PDF metadata is an import part of document security. Use <a href="/">PDFHelperEdit's suite of tools</a> to process and manage your PDFs effectively.</p>
     `,
   },
   'create-print-ready-pdf': {
@@ -747,7 +747,7 @@ const articleContent = {
         <li>Review the final PDF at 100% zoom to check for quality issues</li>
       </ol>
 
-      <h2>Using DonPDF for Print Preparation</h2>
+      <h2>Using PDFHelperEdit for Print Preparation</h2>
       <ul>
         <li>Use <a href="/tools/merge-pdf">Merge PDF</a> to combine multi-page documents for printing</li>
         <li>Use <a href="/tools/remove-pages">Remove Pages</a> to exclude non-print pages (like cover letters or instructions)</li>
@@ -858,8 +858,8 @@ export default function BlogPost() {
           "headline": post.title,
           "description": post.excerpt,
           "datePublished": post.date,
-          "author": { "@type": "Organization", "name": "DonPDF" },
-          "publisher": { "@type": "Organization", "name": "DonPDF" }
+          "author": { "@type": "Organization", "name": "PDFHelperEdit" },
+          "publisher": { "@type": "Organization", "name": "PDFHelperEdit" }
         })
       }} />
     </>

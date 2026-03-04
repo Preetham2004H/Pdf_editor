@@ -6,8 +6,8 @@ export default function Privacy() {
         <>
             <SEOHead
                 title="Privacy Policy"
-                description="DonPDF Privacy Policy – Learn how we protect your data, handle files, and comply with Google Analytics, AdSense, and GDPR requirements."
-                keywords="donpdf privacy policy, pdf tool privacy, data protection, adsense compliant privacy policy"
+                description="PDFHelperEdit Privacy Policy – Learn how we protect your data, handle files, and comply with Google Analytics, AdSense, and GDPR requirements."
+                keywords="PDFHelperEdit privacy policy, pdf tool privacy, data protection, adsense compliant privacy policy"
                 path="/privacy"
             />
             <section className="section-padding">
@@ -19,12 +19,12 @@ export default function Privacy() {
                         <div className="glass-card p-8 space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">Introduction</h2>
-                                <p>Welcome to DonPDF ("we," "our," or "us"). DonPDF is a free online PDF editing and compression platform available at donpdf.com. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this policy carefully. By using DonPDF, you consent to the practices described in this policy.</p>
+                                <p>Welcome to PDFHelperEdit ("we," "our," or "us"). PDFHelperEdit is a free online PDF editing and compression platform available at pdfhelperedit.online. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this policy carefully. By using PDFHelperEdit, you consent to the practices described in this policy.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">1. Information We Collect</h2>
-                                <p className="mb-3">DonPDF is designed with privacy as a core principle. We collect the following types of information:</p>
+                                <p className="mb-3">PDFHelperEdit is designed with privacy as a core principle. We collect the following types of information:</p>
                                 <ul className="list-disc pl-6 space-y-2">
                                     <li><strong>Usage Data:</strong> We collect anonymous usage data such as pages visited, tools used, and browser type through Google Analytics.</li>
                                     <li><strong>Log Data:</strong> Our servers automatically record standard log information including IP address, browser type, referring pages, and timestamps.</li>
@@ -42,7 +42,7 @@ export default function Privacy() {
                                     <li>For server-side operations, all file transfers are encrypted using HTTPS/TLS.</li>
                                     <li>Files uploaded to our servers are stored in isolated, secure environments and are <strong>automatically deleted within 30 minutes</strong> of processing.</li>
                                     <li>We do not access, read, analyze, or share the content of your files with any third party.</li>
-                                    <li>We do not permanently store any files you upload to DonPDF.</li>
+                                    <li>We do not permanently store any files you upload to PDFHelperEdit.</li>
                                 </ul>
                             </div>
 
@@ -54,7 +54,7 @@ export default function Privacy() {
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">4. Google AdSense & Advertising</h2>
-                                <p>We use Google AdSense to display advertisements on DonPDF. Google AdSense uses cookies and web beacons to serve ads based on your prior visits to our website and other websites on the internet.</p>
+                                <p>We use Google AdSense to display advertisements on PDFHelperEdit. Google AdSense uses cookies and web beacons to serve ads based on your prior visits to our website and other websites on the internet.</p>
                                 <p className="mt-3">Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google Ads Settings</a>.</p>
                                 <p className="mt-3">Third-party vendors, including Google, use cookies to serve ads based on prior visits. For more information, visit <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google's advertising policies</a>.</p>
                             </div>
@@ -94,12 +94,12 @@ export default function Privacy() {
                                     <li>Right to data portability</li>
                                     <li>Right to object to processing</li>
                                 </ul>
-                                <p className="mt-3">To exercise any of these rights, please contact us at privacy@donpdf.com.</p>
+                                <p className="mt-3">To exercise any of these rights, please contact us at privacy@pdfhelperedit.online.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">8. Children's Privacy</h2>
-                                <p>DonPDF is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us immediately at privacy@donpdf.com.</p>
+                                <p>PDFHelperEdit is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us immediately at privacy@pdfhelperedit.online.</p>
                             </div>
 
                             <div>
@@ -109,14 +109,14 @@ export default function Privacy() {
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">10. Changes to This Policy</h2>
-                                <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Your continued use of DonPDF after any changes constitutes acceptance of the updated policy.</p>
+                                <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Your continued use of PDFHelperEdit after any changes constitutes acceptance of the updated policy.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">11. Contact Us</h2>
                                 <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at:</p>
-                                <p className="mt-2"><strong>Email:</strong> privacy@donpdf.com</p>
-                                <p><strong>Website:</strong> <a href="https://donpdf.com" className="text-primary hover:underline">donpdf.com</a></p>
+                                <p className="mt-2"><strong>Email:</strong> privacy@pdfhelperedit.online</p>
+                                <p><strong>Website:</strong> <a href="https://pdfhelperedit.online" className="text-primary hover:underline">pdfhelperedit.online</a></p>
                             </div>
                         </div>
                     </motion.div>

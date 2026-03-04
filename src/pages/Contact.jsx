@@ -6,8 +6,8 @@ export default function Contact() {
         <>
             <SEOHead
                 title="Contact Us"
-                description="Get in touch with Preetham H, the creator of DonPDF. We'd love to hear your feedback, questions, or suggestions about our free PDF tools."
-                keywords="contact donpdf, pdf tool support, preetham, feedback"
+                description="Get in touch with Preetham H, the creator of PDFHelperEdit. We'd love to hear your feedback, questions, or suggestions about our free PDF tools."
+                keywords="contact PDFHelperEdit, pdf tool support, preetham, feedback"
                 path="/contact"
             />
             <section className="section-padding">
@@ -27,7 +27,7 @@ export default function Contact() {
                                 <div>
                                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Creator & Owner</p>
                                     <p className="text-xl font-bold text-gray-800 dark:text-gray-100">Preetham H</p>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">AI & Data Science Graduate · DonPDF</p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">AI & Data Science Graduate · PDFHelperEdit</p>
                                 </div>
                             </div>
 
@@ -41,7 +41,7 @@ export default function Contact() {
                                 <div className="flex-1">
                                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Email Us</p>
                                     <a
-                                        href="mailto:preetham171977@gmail.com?subject=Feedback for DonPDF"
+                                        href="mailto:preetham171977@gmail.com?subject=Feedback for PDFHelperEdit"
                                         className="text-primary font-semibold hover:underline text-lg break-all"
                                     >
                                         preetham171977@gmail.com
@@ -58,7 +58,7 @@ export default function Contact() {
                                     Click below to open your email app and send us a message directly.
                                 </p>
                                 <a
-                                    href="mailto:preetham171977@gmail.com?subject=Feedback for DonPDF&body=Hi Preetham,"
+                                    href="mailto:preetham171977@gmail.com?subject=Feedback for PDFHelperEdit&body=Hi Preetham,"
                                     className="btn-primary !px-10 !py-4 !text-base !rounded-2xl inline-flex items-center gap-3"
                                     id="contact-email-btn"
                                 >

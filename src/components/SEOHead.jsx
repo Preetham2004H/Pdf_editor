@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 
 export default function SEOHead({ title, description, keywords, path = '' }) {
-    const siteName = 'DonPDF';
-    const baseUrl = 'https://donpdf.com';
+    const siteName = 'PDFHelperEdit';
+    const baseUrl = 'https://pdfhelperedit.online';
     const fullTitle = title ? `${title} | ${siteName}` : `${siteName} – Free Online PDF Tools`;
     const pageUrl = `${baseUrl}${path}`;
     const ogImage = `${baseUrl}/og-image.png`;

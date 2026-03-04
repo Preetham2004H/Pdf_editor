@@ -16,11 +16,11 @@ const tools = [
 ];
 
 const faqs = [
-    { q: 'Is DonPDF free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
+    { q: 'Is PDFHelperEdit free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
     { q: 'Are my files secure?', a: 'Absolutely. Files are processed securely and automatically deleted after 30 minutes. We never store your files permanently.' },
     { q: 'What is the maximum file size?', a: 'You can upload files up to 100MB in size. For larger files, consider compressing them first.' },
     { q: 'Do I need to install any software?', a: 'No installation needed. All tools work directly in your browser.' },
-    { q: 'Can I use these tools on mobile?', a: 'Yes! DonPDF is fully responsive and works perfectly on mobile devices and tablets.' },
+    { q: 'Can I use these tools on mobile?', a: 'Yes! PDFHelperEdit is fully responsive and works perfectly on mobile devices and tablets.' },
     { q: 'How long does it take to process a PDF?', a: 'Most operations complete in seconds. Processing time depends on your file size and internet connection.' },
 ];
 
@@ -38,8 +38,8 @@ export default function Home() {
         <>
             <SEOHead
                 title="Free Online PDF Tools – Merge, Split, Compress & Convert"
-                description="DonPDF offers free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and works in your browser. No registration required."
-                keywords="free pdf tools, compress pdf online, merge pdf free, split pdf, convert pdf, donpdf, online pdf editor, pdf compressor"
+                description="PDFHelperEdit offers free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and works in your browser. No registration required."
+                keywords="free pdf tools, compress pdf online, merge pdf free, split pdf, convert pdf, PDFHelperEdit, online pdf editor, pdf compressor"
                 path="/"
             />
 
@@ -75,7 +75,7 @@ export default function Home() {
                         </h1>
 
                         <p className="text-lg sm:text-xl text-gray-500 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-                            Merge, split, compress, convert, add watermarks, and more — all for free on DonPDF. Fast, secure, and works right in your browser.
+                            Merge, split, compress, convert, add watermarks, and more — all for free on PDFHelperEdit. Fast, secure, and works right in your browser.
                         </p>
 
                         <motion.div
@@ -130,7 +130,7 @@ export default function Home() {
                 <AdBanner type="in-content" id="home-content-ad" />
             </div>
 
-            {/* Why Choose DonPDF */}
+            {/* Why Choose PDFHelperEdit */}
             <section id="why-choose" className="section-padding bg-gray-50 dark:bg-gray-800/30">
                 <div className="container-main">
                     <motion.div
@@ -140,7 +140,7 @@ export default function Home() {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                            Why Choose <span className="gradient-text">DonPDF?</span>
+                            Why Choose <span className="gradient-text">PDFHelperEdit?</span>
                         </h2>
                         <p className="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
                             Trusted by students, professionals, and businesses worldwide for all their PDF needs.
@@ -307,12 +307,12 @@ export default function Home() {
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "SoftwareApplication",
-                    "name": "DonPDF",
+                    "name": "PDFHelperEdit",
                     "applicationCategory": "UtilitiesApplication",
                     "operatingSystem": "Web",
                     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
                     "description": "Free online PDF tools to merge, split, compress, convert, and edit PDF files.",
-                    "url": "https://donpdf.com"
+                    "url": "https://pdfhelperedit.online"
                 })
             }} />
         </>

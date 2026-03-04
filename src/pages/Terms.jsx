@@ -6,8 +6,8 @@ export default function Terms() {
         <>
             <SEOHead
                 title="Terms & Conditions"
-                description="DonPDF Terms and Conditions. Read our terms of service before using our free PDF tools. Includes user responsibility, file privacy, and limitations of liability."
-                keywords="donpdf terms conditions, pdf tool terms of service, user agreement"
+                description="PDFHelperEdit Terms and Conditions. Read our terms of service before using our free PDF tools. Includes user responsibility, file privacy, and limitations of liability."
+                keywords="PDFHelperEdit terms conditions, pdf tool terms of service, user agreement"
                 path="/terms"
             />
             <section className="section-padding">
@@ -19,17 +19,17 @@ export default function Terms() {
                         <div className="glass-card p-8 space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">1. Acceptance of Terms</h2>
-                                <p>By accessing and using DonPDF ("Service"), available at donpdf.com, you agree to be legally bound by these Terms and Conditions ("Terms"). These Terms apply to all visitors, users, and others who access the Service. If you do not agree with any part of these Terms, please do not use our Service.</p>
+                                <p>By accessing and using PDFHelperEdit ("Service"), available at pdfhelperedit.online, you agree to be legally bound by these Terms and Conditions ("Terms"). These Terms apply to all visitors, users, and others who access the Service. If you do not agree with any part of these Terms, please do not use our Service.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">2. Description of Service</h2>
-                                <p>DonPDF provides free, browser-based PDF tools including but not limited to: PDF compression, PDF merging, PDF splitting, image-to-PDF conversion, PDF-to-image conversion, watermark addition, watermark removal, and page removal. These tools are provided free of charge for personal and professional use.</p>
+                                <p>PDFHelperEdit provides free, browser-based PDF tools including but not limited to: PDF compression, PDF merging, PDF splitting, image-to-PDF conversion, PDF-to-image conversion, watermark addition, watermark removal, and page removal. These tools are provided free of charge for personal and professional use.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">3. User Responsibility</h2>
-                                <p className="mb-3">By using DonPDF, you agree to:</p>
+                                <p className="mb-3">By using PDFHelperEdit, you agree to:</p>
                                 <ul className="list-disc pl-6 space-y-2">
                                     <li>Use the Service only for lawful purposes and in accordance with these Terms</li>
                                     <li>Not upload files containing illegal content, malware, viruses, or harmful code</li>
@@ -68,7 +68,7 @@ export default function Terms() {
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">6. Intellectual Property</h2>
-                                <p>All content, design, functionality, code, and branding of DonPDF — including but not limited to logos, text, graphics, and software — are owned by DonPDF and protected by applicable intellectual property laws. You retain full ownership of all files you process using our tools. No transfer of intellectual property rights occurs through your use of the Service.</p>
+                                <p>All content, design, functionality, code, and branding of PDFHelperEdit — including but not limited to logos, text, graphics, and software — are owned by PDFHelperEdit and protected by applicable intellectual property laws. You retain full ownership of all files you process using our tools. No transfer of intellectual property rights occurs through your use of the Service.</p>
                             </div>
 
                             <div>
@@ -84,19 +84,19 @@ export default function Terms() {
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">8. Limitation of Liability</h2>
-                                <p>To the fullest extent permitted by applicable law, DonPDF and its operators shall not be liable for any:</p>
+                                <p>To the fullest extent permitted by applicable law, PDFHelperEdit and its operators shall not be liable for any:</p>
                                 <ul className="list-disc pl-6 mt-3 space-y-2">
                                     <li>Direct, indirect, incidental, special, or consequential damages</li>
                                     <li>Loss of data, profits, business, or goodwill</li>
                                     <li>File corruption, processing errors, or service interruptions</li>
                                     <li>Damages arising from unauthorized access to or alteration of your files</li>
                                 </ul>
-                                <p className="mt-3">This limitation applies whether the claim is based on warranty, contract, tort, or any other legal theory, even if DonPDF has been advised of the possibility of such damages.</p>
+                                <p className="mt-3">This limitation applies whether the claim is based on warranty, contract, tort, or any other legal theory, even if PDFHelperEdit has been advised of the possibility of such damages.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">9. Service Disclaimer</h2>
-                                <p>DonPDF tools are provided for general utility purposes. We do not guarantee:</p>
+                                <p>PDFHelperEdit tools are provided for general utility purposes. We do not guarantee:</p>
                                 <ul className="list-disc pl-6 mt-3 space-y-2">
                                     <li>That results will meet your specific requirements or expectations</li>
                                     <li>That compressed files will achieve a specific size reduction</li>
@@ -112,14 +112,14 @@ export default function Terms() {
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">11. Changes to Terms</h2>
-                                <p>We reserve the right to modify these Terms at any time. We will update the "Last updated" date at the top of this page when changes are made. Your continued use of DonPDF after any changes constitutes acceptance of the updated Terms.</p>
+                                <p>We reserve the right to modify these Terms at any time. We will update the "Last updated" date at the top of this page when changes are made. Your continued use of PDFHelperEdit after any changes constitutes acceptance of the updated Terms.</p>
                             </div>
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">12. Contact Us</h2>
                                 <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
-                                <p className="mt-2"><strong>Email:</strong> legal@donpdf.com</p>
-                                <p><strong>Website:</strong> <a href="https://donpdf.com" className="text-primary hover:underline">donpdf.com</a></p>
+                                <p className="mt-2"><strong>Email:</strong> legal@pdfhelperedit.online</p>
+                                <p><strong>Website:</strong> <a href="https://pdfhelperedit.online" className="text-primary hover:underline">pdfhelperedit.online</a></p>
                             </div>
                         </div>
                     </motion.div>

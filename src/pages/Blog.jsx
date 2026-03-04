@@ -171,15 +171,15 @@ export default function Blog() {
         <>
             <SEOHead
                 title="Blog – PDF Tips & Tutorials"
-                description="Expert tips, tutorials, and guides on working with PDF files. Learn how to compress, merge, split, watermark, and convert PDFs using DonPDF's free tools."
-                keywords="pdf tips, pdf tutorials, how to compress pdf, merge pdf guide, pdf tools blog, donpdf blog"
+                description="Expert tips, tutorials, and guides on working with PDF files. Learn how to compress, merge, split, watermark, and convert PDFs using PDFHelperEdit's free tools."
+                keywords="pdf tips, pdf tutorials, how to compress pdf, merge pdf guide, pdf tools blog, PDFHelperEdit blog"
                 path="/blog"
             />
             <section className="section-padding">
                 <div className="container-main max-w-4xl">
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                         <h1 className="text-4xl font-bold mb-3">PDF Tips & <span className="gradient-text">Tutorials</span></h1>
-                        <p className="text-gray-500 dark:text-gray-400 mb-10">Expert guides to help you work smarter with PDF files — powered by DonPDF.</p>
+                        <p className="text-gray-500 dark:text-gray-400 mb-10">Expert guides to help you work smarter with PDF files — powered by PDFHelperEdit.</p>
                     </motion.div>
 
                     <AdBanner type="leaderboard" id="blog-header-ad" className="mb-8" />
