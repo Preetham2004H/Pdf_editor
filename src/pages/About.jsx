@@ -17,6 +17,24 @@ export default function About() {
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                         <h1 className="text-4xl font-bold mb-6">About <span className="gradient-text">DonPDF</span></h1>
 
+                        {/* Owner Card */}
+                        <div className="glass-card p-6 mb-8 flex flex-col sm:flex-row items-center sm:items-start gap-5">
+                            <div className="w-16 h-16 rounded-2xl gradient-bg flex items-center justify-center flex-shrink-0 text-white text-2xl font-bold">
+                                PH
+                            </div>
+                            <div className="text-center sm:text-left">
+                                <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Website Creator & Owner</p>
+                                <h2 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-1">Preetham H</h2>
+                                <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">
+                                    Artificial Intelligence & Data Science Graduate · Web Developer
+                                </p>
+                                <a href="mailto:preetham171977@gmail.com" className="inline-flex items-center gap-2 text-sm text-primary hover:underline">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
+                                    preetham171977@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
                         {/* Who We Are */}
                         <div className="glass-card p-8 mb-8">
                             <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">Who We Are</h2>
