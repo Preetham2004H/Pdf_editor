@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import FileUploader from '../components/FileUploader';
 import ProgressBar from '../components/ProgressBar';
 import DownloadButton from '../components/DownloadButton';
-import AdBanner from '../components/AdBanner';
 import SEOHead from '../components/SEOHead';
 import { toolsConfig } from '../utils/toolsConfig';
 import { mergePDFs, splitPDF, removePages, addWatermark, addImageWatermark, imagesToPDF, pdfToImages, getPageCount } from '../utils/pdfTools';
@@ -128,12 +127,22 @@ export default function ToolPage() {
                     name = 'watermarked.pdf';
                     break;
 
-                case 'remove-watermark':
-                    result = await filesToProcess[0].arrayBuffer();
-                    result = new Uint8Array(result);
-                    name = 'processed.pdf';
+                case 'remove-watermark': {
+                    const { PDFDocument } = await import('pdf-lib');
+                    const bytes = await filesToProcess[0].arrayBuffer();
+                    const pdf = await PDFDocument.load(bytes);
+                    setProgress(30);
+                    // Remove page-level annotations (covers annotation-based watermarks)
+                    const pages = pdf.getPages();
+                    pages.forEach(page => {
+                        try { page.node.delete(pdf.context.obj('Annots')); } catch (_) { }
+                    });
+                    setProgress(80);
+                    result = await pdf.save();
+                    name = 'watermark_removed.pdf';
                     setProgress(100);
                     break;
+                }
 
                 case 'image-to-pdf':
                     result = await imagesToPDF(filesToProcess, setProgress);
@@ -288,8 +297,8 @@ export default function ToolPage() {
                                                             type="button"
                                                             onClick={() => setSettings(s => ({ ...s, watermarkType: 'text' }))}
                                                             className={`flex-1 py-3 px-4 rounded-xl text-sm font-medium transition-all border-2 ${settings.watermarkType === 'text'
-                                                                    ? 'border-primary bg-primary/10 text-primary'
-                                                                    : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-300'
+                                                                ? 'border-primary bg-primary/10 text-primary'
+                                                                : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-300'
                                                                 }`}
                                                         >
                                                             ✏️ Text Watermark
@@ -298,8 +307,8 @@ export default function ToolPage() {
                                                             type="button"
                                                             onClick={() => setSettings(s => ({ ...s, watermarkType: 'image' }))}
                                                             className={`flex-1 py-3 px-4 rounded-xl text-sm font-medium transition-all border-2 ${settings.watermarkType === 'image'
-                                                                    ? 'border-primary bg-primary/10 text-primary'
-                                                                    : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-300'
+                                                                ? 'border-primary bg-primary/10 text-primary'
+                                                                : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-300'
                                                                 }`}
                                                         >
                                                             🖼️ Logo / Image
@@ -356,8 +365,8 @@ export default function ToolPage() {
                                                                         type="button"
                                                                         onClick={() => setSettings(s => ({ ...s, watermarkPosition: pos.value }))}
                                                                         className={`py-2 px-3 rounded-lg text-xs font-medium transition-all border ${settings.watermarkPosition === pos.value
-                                                                                ? 'border-primary bg-primary/10 text-primary'
-                                                                                : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-300'
+                                                                            ? 'border-primary bg-primary/10 text-primary'
+                                                                            : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-300'
                                                                             }`}
                                                                     >
                                                                         {pos.label}
@@ -503,10 +512,7 @@ export default function ToolPage() {
                 </div>
             </section>
 
-            {/* Ad */}
-            <div className="container-main max-w-3xl pb-12">
-                <AdBanner type="in-content" id="tool-bottom-ad" />
-            </div>
+
         </>
     );
 }

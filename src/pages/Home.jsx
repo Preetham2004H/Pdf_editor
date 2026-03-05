@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import ToolCard from '../components/ToolCard';
-import AdBanner from '../components/AdBanner';
 import SEOHead from '../components/SEOHead';
 
 const tools = [
@@ -95,10 +94,7 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Header Ad */}
-            <div className="container-main mb-8">
-                <AdBanner type="leaderboard" id="home-header-ad" />
-            </div>
+
 
             {/* Tools Grid */}
             <section id="tools" className="section-padding pt-8">
@@ -125,10 +121,7 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* In-content Ad */}
-            <div className="container-main my-8">
-                <AdBanner type="in-content" id="home-content-ad" />
-            </div>
+
 
             {/* Why Choose PDFHelperEdit */}
             <section id="why-choose" className="section-padding bg-gray-50 dark:bg-gray-800/30">

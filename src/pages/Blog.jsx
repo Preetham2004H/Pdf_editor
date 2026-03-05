@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import SEOHead from '../components/SEOHead';
-import AdBanner from '../components/AdBanner';
 
 export const blogPosts = [
     {
@@ -164,6 +163,247 @@ export const blogPosts = [
         readTime: '6 min read',
         category: 'Guide',
     },
+    // ── New 30 posts ──
+    {
+        slug: 'how-to-password-protect-pdf',
+        title: 'How to Password Protect a PDF File',
+        excerpt: 'Secure your sensitive documents with password protection. A step-by-step guide to encrypting PDF files and controlling who can open or edit them.',
+        date: 'March 1, 2026',
+        readTime: '5 min read',
+        category: 'Security',
+    },
+    {
+        slug: 'pdf-vs-epub-which-format-is-better',
+        title: 'PDF vs EPUB – Which Format Is Better for eBooks?',
+        excerpt: 'Choosing between PDF and EPUB for your eBook? Explore the differences in reflowability, device compatibility, and publishing standards.',
+        date: 'February 27, 2026',
+        readTime: '5 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'how-to-flatten-pdf-form',
+        title: 'How to Flatten a PDF Form – Complete Guide',
+        excerpt: 'Flatten fillable PDF forms so field data becomes permanent and non-editable. Learn when and why to flatten PDFs before sharing.',
+        date: 'February 25, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'best-pdf-compression-techniques',
+        title: 'Best PDF Compression Techniques in 2026',
+        excerpt: 'Deep dive into lossless vs lossy compression, image downsampling, and font subsetting — to shrink PDF files without sacrificing quality.',
+        date: 'February 23, 2026',
+        readTime: '6 min read',
+        category: 'Tips',
+    },
+    {
+        slug: 'how-to-extract-images-from-pdf',
+        title: 'How to Extract Images from a PDF File',
+        excerpt: 'Need to pull out photos or graphics from a PDF? Learn multiple methods to extract images quickly and save them in high quality.',
+        date: 'February 22, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-file-size-reduction-guide',
+        title: 'The Ultimate Guide to PDF File Size Reduction',
+        excerpt: 'Comprehensive guide covering every technique to reduce your PDF file size — from compression algorithms to page removal and metadata stripping.',
+        date: 'February 20, 2026',
+        readTime: '8 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'how-to-rotate-pdf-pages',
+        title: 'How to Rotate PDF Pages – Quick & Easy Methods',
+        excerpt: 'Accidentally scanned pages sideways? Learn how to rotate individual or all PDF pages and save the corrected document.',
+        date: 'February 18, 2026',
+        readTime: '3 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-tips-for-remote-workers',
+        title: '10 PDF Tips Every Remote Worker Should Know',
+        excerpt: 'Working from home means more digital documents. Master these 10 PDF skills to stay organized, communicate clearly, and maintain productivity.',
+        date: 'February 16, 2026',
+        readTime: '6 min read',
+        category: 'Tips',
+    },
+    {
+        slug: 'how-to-combine-scanned-documents',
+        title: 'How to Combine Scanned Documents into One PDF',
+        excerpt: 'Scan multiple pages into a single organized PDF. Step-by-step guide using free online tools — no software installation needed.',
+        date: 'February 14, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-ocr-make-text-searchable',
+        title: 'PDF OCR – Make Your Scanned Documents Searchable',
+        excerpt: 'Optical Character Recognition (OCR) converts scanned image PDFs into searchable, copy-able text. Learn how OCR works and when to use it.',
+        date: 'February 12, 2026',
+        readTime: '6 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'how-to-add-page-numbers-to-pdf',
+        title: 'How to Add Page Numbers to a PDF',
+        excerpt: 'Professional-looking PDFs always have page numbers. Learn how to add, customize, and position page numbers across all pages of your document.',
+        date: 'February 10, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-for-legal-documents',
+        title: 'Using PDF for Legal Documents – Best Practices',
+        excerpt: 'Legal documents require strict formatting, authenticity, and tamper-evidence. Learn how PDF features protect legal agreements and contracts.',
+        date: 'February 8, 2026',
+        readTime: '7 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'share-pdf-securely-online',
+        title: 'How to Share PDF Files Securely Online',
+        excerpt: 'Sending sensitive PDFs over the internet? Learn the safest methods — from encrypted email to secure cloud links and expiring share links.',
+        date: 'February 6, 2026',
+        readTime: '5 min read',
+        category: 'Security',
+    },
+    {
+        slug: 'how-to-add-header-footer-pdf',
+        title: 'How to Add Headers and Footers to a PDF',
+        excerpt: 'Headers and footers add professionalism and context to PDF documents. Learn best practices for adding consistent branding across all pages.',
+        date: 'February 4, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'reduce-pdf-size-without-quality-loss',
+        title: 'Reduce PDF Size Without Quality Loss – 7 Proven Methods',
+        excerpt: 'Seven battle-tested techniques to shrink PDF files while preserving image sharpness and text clarity. Works for any type of PDF document.',
+        date: 'February 2, 2026',
+        readTime: '5 min read',
+        category: 'Tips',
+    },
+    {
+        slug: 'pdf-invoice-best-practices',
+        title: 'PDF Invoice Best Practices for Freelancers & Businesses',
+        excerpt: 'Create professional invoices in PDF format that get paid faster. Covers layout, essential fields, file naming, and sending tips.',
+        date: 'January 31, 2026',
+        readTime: '5 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'how-to-convert-png-to-pdf',
+        title: 'How to Convert PNG to PDF in Seconds',
+        excerpt: 'Turn PNG screenshots, designs, and diagrams into PDF files instantly — keeping transparency and image quality intact.',
+        date: 'January 29, 2026',
+        readTime: '3 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-bookmarks-navigation-guide',
+        title: 'PDF Bookmarks – How to Add and Use Navigation Links',
+        excerpt: 'Bookmarks make long PDFs easy to navigate. Learn how to add, organize, and use bookmarks for a table-of-contents-style reading experience.',
+        date: 'January 27, 2026',
+        readTime: '5 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'pdf-troubleshooting-common-errors',
+        title: 'PDF Troubleshooting – Fix 10 Common PDF Errors',
+        excerpt: 'PDF won\'t open? File is corrupted? Fonts look wrong? Diagnose and fix the 10 most common PDF problems with these proven solutions.',
+        date: 'January 25, 2026',
+        readTime: '7 min read',
+        category: 'Tips',
+    },
+    {
+        slug: 'how-to-convert-excel-to-pdf',
+        title: 'How to Convert Excel Spreadsheets to PDF',
+        excerpt: 'Convert Excel files to PDF while preserving formatting, gridlines, and print areas. Works for spreadsheets with charts and pivot tables.',
+        date: 'January 23, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'how-to-convert-powerpoint-to-pdf',
+        title: 'How to Convert PowerPoint Presentations to PDF',
+        excerpt: 'Share your presentations as a universally viewable PDF. Learn how to export slides, preserve animations notes, and control quality settings.',
+        date: 'January 21, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-for-resumes-job-applications',
+        title: 'Why You Should Always Send Your Resume as a PDF',
+        excerpt: 'PDF resumes look the same on every device, can\'t be accidentally edited, and impress hiring managers. Learn to create and optimize your resume PDF.',
+        date: 'January 19, 2026',
+        readTime: '5 min read',
+        category: 'Tips',
+    },
+    {
+        slug: 'how-to-unlock-pdf',
+        title: 'How to Unlock a PDF – Remove Restrictions',
+        excerpt: 'Locked PDF preventing you from printing or copying? Learn the legitimate ways to remove PDF restrictions when you are the document owner.',
+        date: 'January 17, 2026',
+        readTime: '5 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-archive-long-term-storage',
+        title: 'PDF/A – The Right Format for Long-Term Document Storage',
+        excerpt: 'PDF/A is the ISO standard for archiving documents. Learn what makes it different from regular PDF and when to use it for compliance.',
+        date: 'January 15, 2026',
+        readTime: '6 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'how-to-crop-pdf-pages',
+        title: 'How to Crop PDF Pages – Remove Unwanted Margins',
+        excerpt: 'Oversized margins wasting space on your PDF? Learn how to crop page borders precisely and create a cleaner, more professional document.',
+        date: 'January 13, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-tools-for-teachers',
+        title: 'Best PDF Tools for Teachers and Educators',
+        excerpt: 'Create, share, and manage educational materials efficiently. The top PDF tools that every teacher needs for lesson plans, handouts, and grading.',
+        date: 'January 11, 2026',
+        readTime: '6 min read',
+        category: 'Guide',
+    },
+    {
+        slug: 'how-to-combine-pdf-and-images',
+        title: 'How to Combine PDFs and Images into One Document',
+        excerpt: 'Mix PDF pages and images — photos, diagrams, screenshots — into a single well-organized PDF document using free online tools.',
+        date: 'January 9, 2026',
+        readTime: '4 min read',
+        category: 'Tutorial',
+    },
+    {
+        slug: 'pdf-reading-tips-productivity',
+        title: 'PDF Reading Tips to Boost Your Productivity',
+        excerpt: 'Read PDFs smarter, not harder. From keyboard shortcuts to annotation tools and reading modes — master your PDF reading workflow.',
+        date: 'January 7, 2026',
+        readTime: '5 min read',
+        category: 'Tips',
+    },
+    {
+        slug: 'how-to-redact-pdf',
+        title: 'How to Redact Sensitive Information in a PDF',
+        excerpt: 'Permanently hide confidential text, SSNs, or financial data in PDFs before sharing. Learn proper redaction vs just covering content with black boxes.',
+        date: 'January 5, 2026',
+        readTime: '5 min read',
+        category: 'Security',
+    },
+    {
+        slug: 'pdf-batch-processing-workflow',
+        title: 'PDF Batch Processing – Handle Hundreds of Files at Once',
+        excerpt: 'Stop processing PDFs one by one. Learn batch processing strategies for compressing, converting, or renaming large numbers of PDF files.',
+        date: 'January 3, 2026',
+        readTime: '6 min read',
+        category: 'Guide',
+    },
 ];
 
 export default function Blog() {
@@ -182,7 +422,6 @@ export default function Blog() {
                         <p className="text-gray-500 dark:text-gray-400 mb-10">Expert guides to help you work smarter with PDF files — powered by PDFHelperEdit.</p>
                     </motion.div>
 
-                    <AdBanner type="leaderboard" id="blog-header-ad" className="mb-8" />
 
                     <div className="space-y-6">
                         {blogPosts.map((post, i) => (
@@ -212,9 +451,7 @@ export default function Blog() {
                         ))}
                     </div>
 
-                    <div className="mt-8">
-                        <AdBanner type="in-content" id="blog-bottom-ad" />
-                    </div>
+
                 </div>
             </section>
         </>

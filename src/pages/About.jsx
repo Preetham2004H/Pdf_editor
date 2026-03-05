@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import SEOHead from '../components/SEOHead';
-import AdBanner from '../components/AdBanner';
 
 export default function About() {
     return (
@@ -170,7 +169,6 @@ export default function About() {
                             ))}
                         </div>
 
-                        <AdBanner type="in-content" id="about-ad" />
 
                         {/* FAQ */}
                         <div className="mt-8">

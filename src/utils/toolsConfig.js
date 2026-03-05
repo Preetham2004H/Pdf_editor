@@ -51,7 +51,7 @@ export const toolsConfig = {
     },
     'remove-watermark': {
         title: 'Remove Watermark from PDF',
-        description: 'Remove watermarks from your PDF files. Clean up your documents by removing unwanted watermarks.',
+        description: 'Remove annotation-based watermarks from your PDF files. Cleans up stamp and annotation watermarks added programmatically.',
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'remove watermark from pdf, pdf watermark remover, delete watermark pdf',
         multiple: false,

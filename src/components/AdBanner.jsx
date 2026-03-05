@@ -1,4 +1,8 @@
+import { useEffect, useRef } from 'react';
+
 export default function AdBanner({ type = 'horizontal', id = 'ad-slot', className = '' }) {
+    const adRef = useRef(null);
+
     const sizes = {
         horizontal: 'min-h-[90px] w-full',
         sidebar: 'min-h-[250px] w-full',
@@ -7,16 +11,31 @@ export default function AdBanner({ type = 'horizontal', id = 'ad-slot', classNam
         leaderboard: 'min-h-[90px] w-full max-w-[728px] mx-auto',
     };
 
+    useEffect(() => {
+        try {
+            if (adRef.current && adRef.current.offsetWidth > 0) {
+                (window.adsbygoogle = window.adsbygoogle || []).push({});
+            }
+        } catch (e) {
+            console.error('AdSense error:', e);
+        }
+    }, []);
+
     return (
         <div
             id={id}
-            className={`ad-slot ${sizes[type] || sizes.horizontal} ${className}`}
-            data-ad-slot={id}
+            className={`ad-slot overflow-hidden ${sizes[type] || sizes.horizontal} ${className}`}
             aria-label="Advertisement"
         >
-            {/* Google AdSense code goes here */}
-            {/* <ins className="adsbygoogle" data-ad-client="ca-pub-XXXXXXX" data-ad-slot="XXXXXXX" /> */}
-            <span className="text-xs opacity-50">Ad Space</span>
+            <ins
+                ref={adRef}
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-3378246022656041"
+                data-ad-slot="auto"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+            />
         </div>
     );
 }

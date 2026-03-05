@@ -6,7 +6,6 @@ import { ThemeProvider } from './components/ThemeProvider';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CookieConsent from './components/CookieConsent';
-import AdBanner from './components/AdBanner';
 
 // Lazy loaded pages
 const Home = lazy(() => import('./pages/Home'));
@@ -78,17 +77,13 @@ export default function App() {
         <BrowserRouter>
           <div className="min-h-screen flex flex-col">
             <Navbar />
-            {/* Header Ad */}
-            <div className="container-main mt-2">
-              <AdBanner type="leaderboard" id="global-header-ad" />
-            </div>
+
             <main className="flex-1">
               <AnimatedRoutes />
             </main>
             <Footer />
             <CookieConsent />
-            {/* Sticky mobile ad */}
-            <AdBanner type="sticky-mobile" id="sticky-mobile-ad" />
+
           </div>
         </BrowserRouter>
       </ThemeProvider>
