@@ -60,7 +60,13 @@ export default function Footer() {
 
                 <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
                     <p>&copy; {new Date().getFullYear()} PDFHelperEdit. All rights reserved.</p>
-                    <p>Made with ❤️ for productivity</p>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        <Link to="/privacy" className="text-gray-500 hover:text-secondary transition-colors no-underline">Privacy Policy</Link>
+                        <Link to="/terms" className="text-gray-500 hover:text-secondary transition-colors no-underline">Terms &amp; Conditions</Link>
+                        <Link to="/disclaimer" className="text-gray-500 hover:text-secondary transition-colors no-underline">Disclaimer</Link>
+                        <Link to="/about" className="text-gray-500 hover:text-secondary transition-colors no-underline">About Us</Link>
+                        <Link to="/contact" className="text-gray-500 hover:text-secondary transition-colors no-underline">Contact</Link>
+                    </div>
                 </div>
             </div>
         </footer>
