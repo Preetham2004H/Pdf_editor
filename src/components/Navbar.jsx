@@ -76,6 +76,8 @@ export default function Navbar() {
                     <Link to="/blog" className="px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-600 dark:text-gray-300 hover:text-primary hover:bg-primary/5 transition-colors">Blog</Link>
                     <Link to="/about" className="px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-600 dark:text-gray-300 hover:text-primary hover:bg-primary/5 transition-colors">About</Link>
                     <Link to="/contact" className="px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-600 dark:text-gray-300 hover:text-primary hover:bg-primary/5 transition-colors">Contact</Link>
+                    <Link to="/privacy" className="px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-600 dark:text-gray-300 hover:text-primary hover:bg-primary/5 transition-colors">Privacy</Link>
+                    <Link to="/disclaimer" className="px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-600 dark:text-gray-300 hover:text-primary hover:bg-primary/5 transition-colors">Disclaimer</Link>
                 </div>
 
                 {/* Right side */}
@@ -128,10 +130,22 @@ export default function Navbar() {
                             <Link to="/blog" onClick={() => setMobileOpen(false)} className="block px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-700 dark:text-gray-200 hover:bg-primary/10">Blog</Link>
                             <Link to="/about" onClick={() => setMobileOpen(false)} className="block px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-700 dark:text-gray-200 hover:bg-primary/10">About</Link>
                             <Link to="/contact" onClick={() => setMobileOpen(false)} className="block px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-700 dark:text-gray-200 hover:bg-primary/10">Contact</Link>
+                            <Link to="/privacy" onClick={() => setMobileOpen(false)} className="block px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-700 dark:text-gray-200 hover:bg-primary/10">Privacy Policy</Link>
+                            <Link to="/disclaimer" onClick={() => setMobileOpen(false)} className="block px-3 py-2 rounded-lg text-sm font-medium no-underline text-gray-700 dark:text-gray-200 hover:bg-primary/10">Disclaimer</Link>
                         </div>
                     </motion.div>
                 )}
             </AnimatePresence>
         </nav>
+        {/* Security Trust Strip */ }
+    <div className="bg-green-50 dark:bg-green-900/20 border-b border-green-200/60 dark:border-green-700/30 py-1.5">
+        <div className="container-main flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-xs text-green-700 dark:text-green-400 font-medium">
+            <span className="flex items-center gap-1">🔒 HTTPS Secured</span>
+            <span className="flex items-center gap-1">🗑️ Files auto-deleted after 30 min</span>
+            <span className="flex items-center gap-1">🚫 No file storage or sharing</span>
+            <span className="flex items-center gap-1">🛡️ No malware — 100% safe processing</span>
+            <span className="flex items-center gap-1">📱 Works on all devices</span>
+        </div>
+    </div>
     );
 }

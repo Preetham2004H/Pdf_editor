@@ -13,7 +13,12 @@ export default function Footer() {
                             </div>
                             <span className="font-bold text-lg text-white">PDFHelperEdit</span>
                         </div>
-                        <p className="text-sm text-gray-400 leading-relaxed">Free online PDF tools to merge, split, compress, convert, and edit your PDF files. Fast, secure, and easy to use.</p>
+                        <p className="text-sm text-gray-400 leading-relaxed">Free online PDF tools to merge, split, compress, convert, and edit your PDF files. Files are automatically deleted within 30 minutes. We never store or share your documents.</p>
+                        <div className="mt-4 flex flex-wrap gap-2">
+                            {['🔒 HTTPS Secure', '🚫 No File Storage', '🛡️ Malware-Free', '💰 100% Free'].map(b => (
+                                <span key={b} className="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-300">{b}</span>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Tools */}
@@ -52,8 +57,6 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Ad Slot */}
-                <div className="ad-slot mb-8 py-4" id="footer-ad">Advertisement</div>
 
                 <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
                     <p>&copy; {new Date().getFullYear()} PDFHelperEdit. All rights reserved.</p>

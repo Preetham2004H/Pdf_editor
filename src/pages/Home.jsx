@@ -15,12 +15,18 @@ const tools = [
 ];
 
 const faqs = [
-    { q: 'Is PDFHelperEdit free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required.' },
-    { q: 'Are my files secure?', a: 'Absolutely. Files are processed securely and automatically deleted after 30 minutes. We never store your files permanently.' },
-    { q: 'What is the maximum file size?', a: 'You can upload files up to 100MB in size. For larger files, consider compressing them first.' },
-    { q: 'Do I need to install any software?', a: 'No installation needed. All tools work directly in your browser.' },
-    { q: 'Can I use these tools on mobile?', a: 'Yes! PDFHelperEdit is fully responsive and works perfectly on mobile devices and tablets.' },
-    { q: 'How long does it take to process a PDF?', a: 'Most operations complete in seconds. Processing time depends on your file size and internet connection.' },
+    { q: 'Is PDFHelperEdit free to use?', a: 'Yes! All our core PDF tools are completely free. No registration required and no hidden fees ever.' },
+    { q: 'Are my files secure?', a: 'Absolutely. Files are processed securely and automatically deleted after 30 minutes. We never store your files permanently and we do not share them with any third parties.' },
+    { q: 'Does PDFHelperEdit store my uploaded files?', a: 'No. We do not store your PDF files on our servers after processing. All uploaded files are automatically and permanently deleted within 30 minutes. Your documents remain private.' },
+    { q: 'Is the site safe from malware?', a: 'Yes. PDFHelperEdit only processes PDF and image files using trusted open-source libraries in your browser. We never execute code from your files and our site does not distribute any malware or harmful software.' },
+    { q: 'What is the maximum file size?', a: 'You can upload files up to 100MB in size. For larger files, consider compressing them first using our Compress PDF tool.' },
+    { q: 'Do I need to install any software?', a: 'No installation needed. All tools work directly in your browser on any operating system — Windows, Mac, Linux, iOS, or Android.' },
+    { q: 'Can I use these tools on mobile?', a: 'Yes! PDFHelperEdit is fully responsive and works perfectly on mobile devices and tablets. No app download needed.' },
+    { q: 'How long does it take to process a PDF?', a: 'Most operations complete in seconds. Processing time depends on your file size and internet connection speed.' },
+    { q: 'What PDF tools are available for free?', a: 'We offer 8 free tools: Merge PDF, Split PDF, Compress PDF, Image to PDF, PDF to Image, Remove Pages, Add Watermark, and Remove Watermark — all completely free.' },
+    { q: 'Does PDFHelperEdit work without an internet connection?', a: 'No, as PDFHelperEdit is a web-based service it requires an internet connection. However, many of our operations run client-side in your browser, so processing is fast even on slower connections.' },
+    { q: 'Can I merge more than two PDF files?', a: 'Yes! Our Merge PDF tool supports combining unlimited PDF files in a single operation. Simply upload all the PDFs you want to merge, arrange them in order, and download the combined file.' },
+    { q: 'Will compressing a PDF reduce its quality?', a: 'Our smart compression minimizes quality loss while maximizing size reduction. For most PDFs, you will see 40–70% size reduction with no visible quality difference on screen. Print-quality PDFs may see slightly reduced image sharpness.' },
 ];
 
 const whyChoose = [
@@ -95,8 +101,46 @@ export default function Home() {
             </section>
 
 
+            {/* About the Platform */}
+            <section className="section-padding bg-gray-50 dark:bg-gray-800/30">
+                <div className="container-main max-w-4xl">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-10"
+                    >
+                        <h2 className="text-3xl sm:text-4xl font-bold mb-4">What Is <span className="gradient-text">PDFHelperEdit?</span></h2>
+                    </motion.div>
+                    <div className="glass-card p-8 md:p-10">
+                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4 text-lg">
+                            <strong>PDFHelperEdit</strong> is a free online platform that allows users to merge, compress, split, edit, and remove watermarks from PDF files — all without installing any software or creating an account.
+                        </p>
+                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                            Every tool on this site runs directly in your browser using modern web technology. Your files are processed securely, and all uploaded documents are <strong>automatically and permanently deleted within 30 minutes</strong> — we never store or share your files.
+                        </p>
+                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                            Whether you need to reduce a PDF size before sending it by email, merge multiple reports into one file, extract images from a presentation, or add a confidential watermark to a document — PDFHelperEdit gives you professional-grade PDF tools completely free of charge.
+                        </p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            {[
+                                { icon: '🔒', text: 'HTTPS encrypted — all data transferred securely' },
+                                { icon: '🗑️', text: 'Files permanently deleted within 30 minutes' },
+                                { icon: '🚫', text: 'We do not store, sell, or share your files' },
+                                { icon: '🛡️', text: 'No malware — safe, trusted open-source processing' },
+                                { icon: '📱', text: 'Works on desktop, tablet, and mobile browsers' },
+                                { icon: '💰', text: '100% free — no plans, no subscriptions, no ads on tools' },
+                            ].map((item, i) => (
+                                <div key={i} className="flex items-start gap-3">
+                                    <span className="text-xl mt-0.5">{item.icon}</span>
+                                    <span className="text-sm text-gray-600 dark:text-gray-300">{item.text}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            {/* Tools Grid */}
             <section id="tools" className="section-padding pt-8">
                 <div className="container-main">
                     <motion.div
