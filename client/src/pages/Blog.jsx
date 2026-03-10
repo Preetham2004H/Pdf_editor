@@ -566,6 +566,7 @@ export const blogPosts = [
     },
 ];
 
+export default function Blog() {
 return (
     <>
         <SEOHead
