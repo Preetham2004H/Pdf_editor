@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "echo 'VERIFY_CLEAN_BUILD' && npx rimraf dist && vite build",
+    "build": "npx rimraf dist && vite build && npx rimraf dist/_redirects",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && npx rimraf dist/_redirects && wrangler deploy"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
