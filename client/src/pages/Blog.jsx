@@ -422,7 +422,7 @@ export const blogPosts = [
     },
     {
         slug: 'pdf-signature-vs-digital-signature',
-        title: 'PDF Signatures vs. Digital Signatures: What’s the Difference?',
+        title: 'PDF Signatures vs. Digital Signatures: What\'s the Difference?',
         excerpt: 'Confused by electronic signatures? We break down the legal and technical differences between drawing your name and cryptographic digital signatures.',
         date: 'March 4, 2026',
         readTime: '5 min read',
@@ -567,53 +567,53 @@ export const blogPosts = [
 ];
 
 export default function Blog() {
-return (
-    <>
-        <SEOHead
-            title="Blog – PDF Tips & Tutorials"
-            description="Expert tips, tutorials, and guides on working with PDF files. Learn how to compress, merge, split, watermark, and convert PDFs using PDFHelperEdit's free tools."
-            keywords="pdf tips, pdf tutorials, how to compress pdf, merge pdf guide, pdf tools blog, PDFHelperEdit blog"
-            path="/blog"
-        />
-        <section className="section-padding">
-            <div className="container-main max-w-4xl">
-                <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-                    <h1 className="text-4xl font-bold mb-3">PDF Tips & <span className="gradient-text">Tutorials</span></h1>
-                    <p className="text-gray-500 dark:text-gray-400 mb-10">Expert guides to help you work smarter with PDF files — powered by PDFHelperEdit.</p>
-                </motion.div>
+    return (
+        <>
+            <SEOHead
+                title="Blog – PDF Tips & Tutorials"
+                description="Expert tips, tutorials, and guides on working with PDF files. Learn how to compress, merge, split, watermark, and convert PDFs using PDFHelperEdit's free tools."
+                keywords="pdf tips, pdf tutorials, how to compress pdf, merge pdf guide, pdf tools blog, PDFHelperEdit blog"
+                path="/blog"
+            />
+            <section className="section-padding">
+                <div className="container-main max-w-4xl">
+                    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+                        <h1 className="text-4xl font-bold mb-3">PDF Tips & <span className="gradient-text">Tutorials</span></h1>
+                        <p className="text-gray-500 dark:text-gray-400 mb-10">Expert guides to help you work smarter with PDF files — powered by PDFHelperEdit.</p>
+                    </motion.div>
 
 
-                <div className="space-y-6">
-                    {blogPosts.map((post, i) => (
-                        <motion.article
-                            key={post.slug}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: i * 0.08 }}
-                        >
-                            <Link to={`/blog/${post.slug}`} className="no-underline block group">
-                                <div className="glass-card p-6 hover:shadow-lg transition-all">
-                                    <div className="flex items-center gap-3 mb-3">
-                                        <span className="text-xs font-medium px-3 py-1 rounded-full bg-primary/10 text-primary">{post.category}</span>
-                                        <span className="text-xs text-gray-400">{post.date}</span>
-                                        <span className="text-xs text-gray-400">• {post.readTime}</span>
+                    <div className="space-y-6">
+                        {blogPosts.map((post, i) => (
+                            <motion.article
+                                key={post.slug}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: i * 0.08 }}
+                            >
+                                <Link to={`/blog/${post.slug}`} className="no-underline block group">
+                                    <div className="glass-card p-6 hover:shadow-lg transition-all">
+                                        <div className="flex items-center gap-3 mb-3">
+                                            <span className="text-xs font-medium px-3 py-1 rounded-full bg-primary/10 text-primary">{post.category}</span>
+                                            <span className="text-xs text-gray-400">{post.date}</span>
+                                            <span className="text-xs text-gray-400">• {post.readTime}</span>
+                                        </div>
+                                        <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 group-hover:text-primary transition-colors mb-2">{post.title}</h2>
+                                        <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{post.excerpt}</p>
+                                        <span className="inline-flex items-center gap-1 text-sm text-primary font-medium mt-3 group-hover:gap-2 transition-all">
+                                            Read more
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
+                                        </span>
                                     </div>
-                                    <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 group-hover:text-primary transition-colors mb-2">{post.title}</h2>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{post.excerpt}</p>
-                                    <span className="inline-flex items-center gap-1 text-sm text-primary font-medium mt-3 group-hover:gap-2 transition-all">
-                                        Read more
-                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
-                                    </span>
-                                </div>
-                            </Link>
-                        </motion.article>
-                    ))}
+                                </Link>
+                            </motion.article>
+                        ))}
+                    </div>
+
+
                 </div>
-
-
-            </div>
-        </section>
-    </>
-);
+            </section>
+        </>
+    );
 }
