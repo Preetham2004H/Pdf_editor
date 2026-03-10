@@ -634,3 +634,4 @@ export default function Blog() {
     </>
   );
 }
+// TEMP: syntax fix March 10 2026
