@@ -1,12 +1,12 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "./client/node_modules/wrangler/config-schema.json",
   "name": "donpdf",
   "compatibility_date": "2025-09-27",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "./client/dist",
+    "directory": "client/dist",
     "not_found_handling": "single-page-application"
   },
   "compatibility_flags": [
