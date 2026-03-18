@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx rimraf dist && vite build && npx rimraf dist/_redirects",
+    "build": "npx rimraf dist && vite build",
     "lint": "eslint .",
-    "deploy": "npm run build && npx rimraf dist/_redirects && wrangler pages deploy dist --project-name donpdf"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name donpdf"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
