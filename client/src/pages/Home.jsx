@@ -280,6 +280,50 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* Featured PDF Guides Section */}
+            <section className="section-padding bg-white dark:bg-transparent">
+                <div className="container-main">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-12"
+                    >
+                        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+                            Expert <span className="gradient-text">PDF Guides</span>
+                        </h2>
+                        <p className="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
+                            Master your documents with our detailed guides and tutorials from the PDFHelperEdit blog.
+                        </p>
+                    </motion.div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {[
+                            { slug: 'how-to-compress-pdf-without-losing-quality', title: 'Compress PDF Guide', desc: 'Learn the best ways to reduce PDF size while maintaining perfect visual quality.' },
+                            { slug: 'pdf-security-tips-protect-your-documents', title: 'PDF Security Tips', desc: 'Essential advice on protecting your sensitive documents via watermarking and more.' },
+                            { slug: 'how-to-convert-jpg-to-pdf', title: 'JPG to PDF Conversion', desc: 'Efficiently combine your images into a single, professional PDF document.' },
+                        ].map((post, i) => (
+                            <motion.div
+                                key={post.slug}
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: i * 0.1 }}
+                                className="glass-card p-6 flex flex-col"
+                            >
+                                <span className="text-xs font-medium text-primary mb-2">Popular Guide</span>
+                                <h3 className="text-lg font-bold mb-3 text-gray-800 dark:text-gray-100">{post.title}</h3>
+                                <p className="text-sm text-gray-500 dark:text-gray-400 mb-6 flex-grow">{post.desc}</p>
+                                <Link to={`/blog/${post.slug}`} className="text-primary font-semibold text-sm hover:underline inline-flex items-center gap-1 group">
+                                    Read Guide
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="transition-transform group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                                </Link>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* Blog CTA */}
             <section className="section-padding">
                 <div className="container-main">

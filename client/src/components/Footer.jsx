@@ -51,6 +51,7 @@ export default function Footer() {
                             <li><Link to="/contact" className="text-gray-400 hover:text-secondary transition-colors no-underline">Contact</Link></li>
                             <li><Link to="/blog" className="text-gray-400 hover:text-secondary transition-colors no-underline">Blog</Link></li>
                             <li><Link to="/privacy" className="text-gray-400 hover:text-secondary transition-colors no-underline">Privacy Policy</Link></li>
+                            <li><Link to="/sitemap" className="text-gray-400 hover:text-secondary transition-colors no-underline">Sitemap</Link></li>
                             <li><Link to="/terms" className="text-gray-400 hover:text-secondary transition-colors no-underline">Terms & Conditions</Link></li>
                             <li><Link to="/disclaimer" className="text-gray-400 hover:text-secondary transition-colors no-underline">Disclaimer & DMCA</Link></li>
                         </ul>

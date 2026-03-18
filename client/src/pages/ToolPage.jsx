@@ -6,11 +6,13 @@ import ProgressBar from '../components/ProgressBar';
 import DownloadButton from '../components/DownloadButton';
 import SEOHead from '../components/SEOHead';
 import { toolsConfig } from '../utils/toolsConfig';
+import { articleContent } from '../utils/articleContent';
 import { mergePDFs, splitPDF, removePages, addWatermark, addImageWatermark, imagesToPDF, pdfToImages, getPageCount } from '../utils/pdfTools';
 
 export default function ToolPage() {
     const { toolSlug } = useParams();
     const config = toolsConfig[toolSlug];
+    const article = config?.articleKey ? articleContent[config.articleKey] : null;
 
     const [files, setFiles] = useState([]);
     const [step, setStep] = useState('upload'); // upload | settings | processing | done | error
@@ -515,10 +517,29 @@ export default function ToolPage() {
                             ))}
                         </div>
                     )}
+                    {/* Tool Guide / Article */}
+                    {article && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="mt-16"
+                        >
+                            <div className="prose prose-lg dark:prose-invert max-w-none
+                                [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:text-gray-800 [&_h2]:dark:text-gray-100
+                                [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-8 [&_h3]:mb-3
+                                [&_p]:text-gray-600 [&_p]:dark:text-gray-300 [&_p]:mb-4 [&_p]:leading-relaxed
+                                [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ul]:space-y-2
+                                [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-4 [&_ol]:space-y-2
+                                [&_li]:text-gray-600 [&_li]:dark:text-gray-300
+                                [&_a]:text-primary [&_a]:underline [&_a]:hover:text-primary-light
+                                [&_strong]:text-gray-800 [&_strong]:dark:text-gray-100"
+                                dangerouslySetInnerHTML={{ __html: article.content }}
+                            />
+                        </motion.div>
+                    )}
                 </div>
             </section>
-
-
         </>
     );
 }

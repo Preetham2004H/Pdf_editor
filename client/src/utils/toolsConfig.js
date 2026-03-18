@@ -6,6 +6,7 @@ export const toolsConfig = {
         accept: { 'image/*': ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.bmp'] },
         keywords: 'image to pdf, jpg to pdf, png to pdf, convert image to pdf online free',
         multiple: true,
+        articleKey: 'how-to-convert-jpg-to-pdf',
     },
     'pdf-to-image': {
         title: 'PDF to Image Converter',
@@ -13,6 +14,7 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'pdf to image, pdf to jpg, pdf to png, convert pdf to image online',
         multiple: false,
+        articleKey: 'how-to-convert-pdf-to-image',
     },
     'merge-pdf': {
         title: 'Merge PDF Files',
@@ -20,6 +22,7 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'merge pdf, combine pdf, join pdf files online free',
         multiple: true,
+        articleKey: 'how-to-merge-pdf-files',
     },
     'split-pdf': {
         title: 'Split PDF',
@@ -27,6 +30,7 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'split pdf, separate pdf pages, extract pdf pages online free',
         multiple: false,
+        articleKey: 'how-to-split-pdf-into-separate-pages',
     },
     'compress-pdf': {
         title: 'Compress PDF',
@@ -34,6 +38,7 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'compress pdf, reduce pdf size, resize pdf online free',
         multiple: false,
+        articleKey: 'how-to-compress-pdf-without-losing-quality',
     },
     'remove-pages': {
         title: 'Remove PDF Pages',
@@ -41,6 +46,7 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'remove pdf pages, delete pdf pages, remove pages from pdf online',
         multiple: false,
+        articleKey: 'how-to-remove-pages-from-pdf',
     },
     'add-watermark': {
         title: 'Add Watermark to PDF',
@@ -48,6 +54,7 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'add watermark to pdf, pdf watermark, watermark pdf online free',
         multiple: false,
+        articleKey: 'how-to-add-watermark-to-pdf',
     },
     'remove-watermark': {
         title: 'Remove Watermark from PDF',
@@ -55,5 +62,6 @@ export const toolsConfig = {
         accept: { 'application/pdf': ['.pdf'] },
         keywords: 'remove watermark from pdf, pdf watermark remover, delete watermark pdf',
         multiple: false,
+        articleKey: 'remove-watermark-from-pdf-guide',
     },
 };
