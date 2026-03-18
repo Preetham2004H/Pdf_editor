@@ -53,8 +53,37 @@ export default function Footer() {
                             <li><Link to="/privacy" className="text-gray-400 hover:text-secondary transition-colors no-underline">Privacy Policy</Link></li>
                             <li><Link to="/sitemap" className="text-gray-400 hover:text-secondary transition-colors no-underline">Sitemap</Link></li>
                             <li><Link to="/terms" className="text-gray-400 hover:text-secondary transition-colors no-underline">Terms & Conditions</Link></li>
+                            <li><Link to="/refund-policy" className="text-gray-400 hover:text-secondary transition-colors no-underline">Refund & Billing</Link></li>
                             <li><Link to="/disclaimer" className="text-gray-400 hover:text-secondary transition-colors no-underline">Disclaimer & DMCA</Link></li>
                         </ul>
+                    </div>
+
+                    {/* Trust Signals */}
+                    <div className="md:col-span-1 border-l border-gray-100 dark:border-gray-800/50 pl-0 md:pl-8">
+                        <h4 className="text-lg font-bold mb-6 text-gray-800 dark:text-gray-100 uppercase tracking-widest text-xs">Trust & Security</h4>
+                        <div className="space-y-4">
+                            <div className="flex items-center gap-3 p-3 rounded-xl bg-green-500/5 border border-green-500/10">
+                                <span className="text-xl">🔒</span>
+                                <div>
+                                    <p className="text-xs font-bold text-green-700 dark:text-green-400 uppercase">100% Secure</p>
+                                    <p className="text-[10px] text-gray-500">Browser-based processing</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-3 p-3 rounded-xl bg-primary/5 border border-primary/10">
+                                <span className="text-xl">💰</span>
+                                <div>
+                                    <p className="text-xs font-bold text-primary uppercase">Always Free</p>
+                                    <p className="text-[10px] text-gray-500">No hidden subscriptions</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-3 p-3 rounded-xl bg-secondary/5 border border-secondary/10">
+                                <span className="text-xl">⚡</span>
+                                <div>
+                                    <p className="text-xs font-bold text-secondary uppercase">Private</p>
+                                    <p className="text-[10px] text-gray-500">Auto-delete after 30m</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

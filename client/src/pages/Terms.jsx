@@ -24,7 +24,15 @@ export default function Terms() {
 
                             <div>
                                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">2. Description of Service</h2>
-                                <p>PDFHelperEdit provides free, browser-based PDF tools including but not limited to: PDF compression, PDF merging, PDF splitting, image-to-PDF conversion, PDF-to-image conversion, watermark addition, watermark removal, and page removal. These tools are provided free of charge for personal and professional use.</p>
+                                <p>PDFHelperEdit provides free, browser-based PDF tools including but not limited to: PDF compression, PDF merging, PDF splitting, image-to-PDF conversion, PDF-to-image conversion, watermark addition, watermark removal, and page removal. These tools are provided 100% free of charge for personal and professional use. We do not offer premium tiers, paid subscriptions, or any fee-based features.</p>
+                            </div>
+
+                            <div className="p-6 bg-primary/5 border border-primary/20 rounded-2xl">
+                                <h2 className="text-xl font-bold mb-3 text-primary flex items-center gap-2">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                                    Billing Transparency
+                                </h2>
+                                <p className="text-sm font-medium text-gray-700 dark:text-gray-200">PDFHelperEdit is a committed free-use platform. We do not collect credit card information, bank details, or any payment-related data. Any request for payment appearing to originate from PDFHelperEdit is fraudulent and should be reported to <strong>billing@pdfhelperedit.online</strong>.</p>
                             </div>
 
                             <div>
@@ -116,10 +124,18 @@ export default function Terms() {
                             </div>
 
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">12. Contact Us</h2>
-                                <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
-                                <p className="mt-2"><strong>Email:</strong> legal@pdfhelperedit.online</p>
-                                <p><strong>Website:</strong> <a href="https://pdfhelperedit.online" className="text-primary hover:underline">pdfhelperedit.online</a></p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">12. Contact Information</h2>
+                                <p>If you have any questions about these Terms and Conditions or our service protocols, please contact our legal and support teams:</p>
+                                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50">
+                                        <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Legal & Compliance</p>
+                                        <p className="font-bold text-gray-800 dark:text-gray-100">legal@pdfhelperedit.online</p>
+                                    </div>
+                                    <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50">
+                                        <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Billing & Transparency</p>
+                                        <p className="font-bold text-gray-800 dark:text-gray-100">billing@pdfhelperedit.online</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </motion.div>

@@ -62,18 +62,33 @@ export default function Disclaimer() {
                                 <p className="mt-3">We do not endorse or make any representations about third-party websites. Your access to and use of third-party sites is at your own risk.</p>
                             </div>
 
-                            <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">6. Advertising Disclaimer</h2>
-                                <p>PDFHelperEdit displays advertisements provided by Google AdSense and other third-party advertising networks. These advertisements are clearly identified and are not endorsements of the products or services advertised.</p>
-                                <p className="mt-3">We are not responsible for the content, accuracy, or opinions expressed in such advertisements. Any transactions between you and advertisers are solely between you and the advertiser. We encourage you to review advertiser terms before engaging with any third-party products or services.</p>
+                             <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">6. Advertising & Revenue Disclaimer</h2>
+                                <p>PDFHelperEdit displays advertisements provided by Google AdSense and other third-party advertising networks. These advertisements are clearly identified and are not endorsements of the products or services advertised. Revenue generated from these advertisements is used to maintain our servers and ensure our PDF tools remain 100% free for all users.</p>
+                                <p className="mt-3">We are not responsible for the content, accuracy, or opinions expressed in such advertisements. Any transactions between you and advertisers are solely between you and the advertiser.</p>
+                            </div>
+
+                            <div className="p-6 bg-green-500/5 border border-green-500/20 rounded-2xl">
+                                <h2 className="text-xl font-bold mb-3 text-green-700 dark:text-green-400 flex items-center gap-2">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                    Billing Transparency
+                                </h2>
+                                <p className="text-sm font-medium text-gray-700 dark:text-gray-200">PDFHelperEdit does not collect payment, subscription fees, or banking data. We provide our services at no cost. If you encounter any unauthorized billing or solicitation under the PDFHelperEdit name, please report it immediately to <strong>billing@pdfhelperedit.online</strong>.</p>
                             </div>
 
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. Contact Us</h2>
-                                <p>If you have questions about this disclaimer or need to submit a DMCA notice, please contact us at:</p>
-                                <p className="mt-2"><strong>DMCA / Legal:</strong> dmca@pdfhelperedit.online</p>
-                                <p><strong>General Contact:</strong> contact@pdfhelperedit.online</p>
-                                <p><strong>Website:</strong> <a href="https://pdfhelperedit.online" className="text-primary hover:underline">pdfhelperedit.online</a></p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. Contact Information</h2>
+                                <p>If you have questions about this disclaimer, our DMCA policy, or need to verify our billing protocols, please contact our specialized teams:</p>
+                                <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-700">
+                                        <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">DMCA & Legal</p>
+                                        <p className="font-bold text-gray-800 dark:text-gray-100">dmca@pdfhelperedit.online</p>
+                                    </div>
+                                    <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-700">
+                                        <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Billing Verification</p>
+                                        <p className="font-bold text-gray-800 dark:text-gray-100">billing@pdfhelperedit.online</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </motion.div>

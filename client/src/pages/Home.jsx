@@ -111,42 +111,68 @@ export default function Home() {
             </section>
 
 
-            {/* About the Platform */}
+            {/* Trust & Transparency Section */}
             <section className="section-padding bg-gray-50 dark:bg-gray-800/30">
-                <div className="container-main max-w-4xl">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        className="text-center mb-10"
-                    >
-                        <h2 className="text-3xl sm:text-4xl font-bold mb-4">What Is <span className="gradient-text">PDFHelperEdit?</span></h2>
-                    </motion.div>
-                    <div className="glass-card p-8 md:p-10">
-                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4 text-lg">
-                            <strong>PDFHelperEdit</strong> is a free online platform that allows users to merge, compress, split, edit, and remove watermarks from PDF files — all without installing any software or creating an account.
-                        </p>
-                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-                            Every tool on this site runs directly in your browser using modern web technology. Your files are processed securely, and all uploaded documents are <strong>automatically and permanently deleted within 30 minutes</strong> — we never store or share your files.
-                        </p>
-                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                            Whether you need to reduce a PDF size before sending it by email, merge multiple reports into one file, extract images from a presentation, or add a confidential watermark to a document — PDFHelperEdit gives you professional-grade PDF tools completely free of charge.
-                        </p>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            {[
-                                { icon: '🔒', text: 'HTTPS encrypted — all data transferred securely' },
-                                { icon: '🗑️', text: 'Files permanently deleted within 30 minutes' },
-                                { icon: '🚫', text: 'We do not store, sell, or share your files' },
-                                { icon: '🛡️', text: 'No malware — safe, trusted open-source processing' },
-                                { icon: '📱', text: 'Works on desktop, tablet, and mobile browsers' },
-                                { icon: '💰', text: '100% free — no plans, no subscriptions, no ads on tools' },
-                            ].map((item, i) => (
-                                <div key={i} className="flex items-start gap-3">
-                                    <span className="text-xl mt-0.5">{item.icon}</span>
-                                    <span className="text-sm text-gray-600 dark:text-gray-300">{item.text}</span>
+                <div className="container-main">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <motion.div
+                            initial={{ opacity: 0, x: -30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                        >
+                            <h2 className="text-3xl sm:text-4xl font-bold mb-6">Transparent & <span className="gradient-text">Trusted</span></h2>
+                            <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6 text-lg">
+                                We know that findable, free PDF tools often come with hidden catches. At <strong>PDFHelperEdit</strong>, we believe in complete transparency.
+                            </p>
+                            <div className="space-y-4">
+                                <div className="p-5 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm">
+                                    <h3 className="font-bold text-gray-800 dark:text-gray-100 mb-2 flex items-center gap-2">
+                                        <span className="text-primary text-xl">💳</span>
+                                        No Credit Card, ever.
+                                    </h3>
+                                    <p className="text-sm text-gray-500">We never ask for your payment information or personal details. No hidden subscriptions, no "trial" periods that turn into charges.</p>
                                 </div>
-                            ))}
-                        </div>
+                                <div className="p-5 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm">
+                                    <h3 className="font-bold text-gray-800 dark:text-gray-100 mb-2 flex items-center gap-2">
+                                        <span className="text-secondary text-xl">📢</span>
+                                        How we stay free
+                                    </h3>
+                                    <p className="text-sm text-gray-500">We sustain our platform through non-intrusive Google AdSense advertising. This allows us to keep professional-grade tools accessible to everyone at zero cost.</p>
+                                </div>
+                            </div>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, x: 30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            className="relative"
+                        >
+                            <div className="glass-card p-8 md:p-10 border-2 border-primary/20 relative z-10">
+                                <div className="w-16 h-16 rounded-2xl gradient-bg flex items-center justify-center text-white mb-6 shadow-lg shadow-primary/20">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                </div>
+                                <h3 className="text-2xl font-bold mb-4">Security Guarantee</h3>
+                                <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                                    Your privacy is our core value. Unlike many online tools, we prioritize <strong>local processing</strong>.
+                                </p>
+                                <ul className="space-y-3">
+                                    {[
+                                        'Files processed in your browser whenever possible',
+                                        'Encrypted HTTPS transfers for server operations',
+                                        'Automatic permanent deletion within 30 minutes',
+                                        'No human or AI reads your document content',
+                                    ].map((text, i) => (
+                                        <li key={i} className="flex items-center gap-3 text-sm text-gray-600 dark:text-gray-300">
+                                            <span className="w-5 h-5 rounded-full bg-green-500/10 text-green-600 flex items-center justify-center text-[10px] font-bold">✓</span>
+                                            {text}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="absolute -top-6 -right-6 w-32 h-32 bg-secondary/10 rounded-full blur-2xl -z-1" />
+                            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl -z-1" />
+                        </motion.div>
                     </div>
                 </div>
             </section>

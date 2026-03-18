@@ -65,6 +65,7 @@ function AnimatedRoutes() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
           </Routes>
         </Suspense>
       </motion.div>
