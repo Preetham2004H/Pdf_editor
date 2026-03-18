@@ -35,17 +35,16 @@ export default function Terms() {
                                 <p className="text-sm font-medium text-gray-700 dark:text-gray-200">PDFHelperEdit is a committed free-use platform. We do not collect credit card information, bank details, or any payment-related data. Any request for payment appearing to originate from PDFHelperEdit is fraudulent and should be reported to <strong>billing@pdfhelperedit.online</strong>.</p>
                             </div>
 
-                            <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">3. User Responsibility</h2>
-                                <p className="mb-3">By using PDFHelperEdit, you agree to:</p>
+                             <div>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">3. User Responsibility & Prohibited Uses</h2>
+                                <p className="mb-3">By using PDFHelperEdit, you agree to use the Service in accordance with all applicable laws and regulations. You are strictly prohibited from:</p>
                                 <ul className="list-disc pl-6 space-y-2">
-                                    <li>Use the Service only for lawful purposes and in accordance with these Terms</li>
-                                    <li>Not upload files containing illegal content, malware, viruses, or harmful code</li>
-                                    <li>Not use the Service to process copyrighted material without proper authorization</li>
-                                    <li>Not attempt to circumvent, disable, or interfere with the security features of the Service</li>
-                                    <li>Not use automated scripts, bots, or tools to excessively use or abuse the Service</li>
-                                    <li>Ensure you have the legal right to process any files you upload</li>
-                                    <li>Be solely responsible for the content of files you upload and process</li>
+                                    <li><strong>Creating Fraudulent Documents:</strong> Using the Service to create or modify false or fake documents, including but not limited to passports, diplomas, government IDs, financial statements, or accreditation.</li>
+                                    <li><strong>Intellectual Property Infringement:</strong> Processing or redistributing copyrighted material or trademarks without the express permission of the owner.</li>
+                                    <li><strong>Enabling Dishonest Behavior:</strong> Using the tools to mislead others, commit fraud, or engage in deceptive practices.</li>
+                                    <li><strong>DRM & Security Bypass:</strong> Attempting to tamper with, decrypt, or bypass Digital Rights Management (DRM) or copyright protection on any files.</li>
+                                    <li><strong>Malicious Material:</strong> Uploading or processing files containing malware, viruses, or harmful code designed to damage or gain unauthorized access to any system.</li>
+                                    <li><strong>Service Abuse:</strong> Engaging in activities that overburden our infrastructure, such as automated high-volume processing or scraping.</li>
                                 </ul>
                             </div>
 

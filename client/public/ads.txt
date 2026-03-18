@@ -1,1 +1,5 @@
-google.com, pub-3378246022656041, DIRECT, f08c47fec0942fa0
+# PDFHelperEdit ads.txt
+# Replace the placeholder below with your actual AdSense Publisher ID (e.g., pub-0000000000000000)
+# after you receive your ID from the AdSense dashboard.
+
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

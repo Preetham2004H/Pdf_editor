@@ -85,22 +85,24 @@ export default function Privacy() {
                             </div>
 
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. GDPR Rights (EU Users)</h2>
-                                <p className="mb-3">If you are a resident of the European Union, you have the following rights under the General Data Protection Regulation (GDPR):</p>
-                                <ul className="list-disc pl-6 space-y-2">
-                                    <li>Right to access your personal data</li>
-                                    <li>Right to rectification of inaccurate data</li>
-                                    <li>Right to erasure ("right to be forgotten")</li>
-                                    <li>Right to restrict processing</li>
-                                    <li>Right to data portability</li>
-                                    <li>Right to object to processing</li>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">7. GDPR Rights & EU User Consent Policy</h2>
+                                <p className="mb-3">For users in the European Economic Area (EEA) and the UK, we comply with the <strong>EU User Consent Policy</strong>. We ensure that:</p>
+                                <ul className="list-disc pl-6 space-y-2 mb-3 text-sm">
+                                    <li>Legally valid consent is obtained for the use of cookies or other local storage where required.</li>
+                                    <li>Consent is obtained for the collection, sharing, and use of personal data for personalization of ads.</li>
+                                    <li>Users have the right to withdraw consent at any time.</li>
                                 </ul>
-                                <p className="mt-3">To exercise any of these rights, please contact us at privacy@pdfhelperedit.online.</p>
+                                <p className="mb-3">Under the General Data Protection Regulation (GDPR), you have the following rights:</p>
+                                <ul className="list-disc pl-6 space-y-2">
+                                    <li>Right to access, rectification, and erasure of your personal data.</li>
+                                    <li>Right to restrict and object to processing.</li>
+                                    <li>Right to data portability.</li>
+                                </ul>
                             </div>
 
                             <div>
-                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">8. Children's Privacy</h2>
-                                <p>PDFHelperEdit is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us immediately at privacy@pdfhelperedit.online.</p>
+                                <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-100">8. Children's Privacy (COPPA Compliance)</h2>
+                                <p>PDFHelperEdit is not directed to children under the age of 13. We strictly comply with the **Children's Online Privacy Protection Act (COPPA)** and the Google Publisher Policy regarding child-directed treatment. We do not knowingly collect personal information from children under 13, and our advertising partners (Google AdSense) are instructed not to target personalized ads to users in this age group. If you believe a child has provided us with personal information, please contact us immediately.</p>
                             </div>
 
                             <div>
